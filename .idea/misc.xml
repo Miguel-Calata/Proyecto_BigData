@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="Proyecto_BigData" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (workspace)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Proyecto_BigData)" project-jdk-type="Python SDK" />
   <component name="PyCharmDSProjectLayout">
     <option name="id" value="JupyterRightHiddenStructureLayout" />
   </component>
