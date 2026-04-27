@@ -1,0 +1,1873 @@
+country,country_iso3,category,available_weight,total_category_weight,coverage_ratio,variable_count,has_primary_source,category_score,reason
+Afghanistan,AFG,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,11.06,ok
+Albania,ALB,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,53.2,ok
+Algeria,DZA,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,44.34,ok
+Andorra,AND,calidad_de_vida_y_bienestar,0.3,1.0,0.3,1,True,38.53,ok
+Angola,AGO,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Antigua and Barbuda,ATG,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Argentina,ARG,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,58.76,ok
+Armenia,ARM,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,55.53,ok
+Aruba,ABW,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Australia,AUS,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,74.43,ok
+Austria,AUT,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,74.66,ok
+Azerbaijan,AZE,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,47.78,ok
+Bahamas,BHS,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Bahrain,BHR,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,57.86,ok
+Bangladesh,BGD,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,32.12,ok
+Barbados,BRB,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Belarus,BLR,calidad_de_vida_y_bienestar,0.55,1.0,0.55,2,True,55.37,ok
+Belgium,BEL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,73.15,ok
+Belize,BLZ,calidad_de_vida_y_bienestar,0.3,1.0,0.3,1,True,30.88,ok
+Benin,BEN,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,36.78,ok
+Bhutan,BTN,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Bolivia,BOL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,44.15,ok
+Bosnia and Herzegovina,BIH,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,53.91,ok
+Bosnia-Herzegovina,BIH,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,37.61,ok
+Brazil,BRA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,57.43,ok
+Brunei,BRN,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Bulgaria,BGR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,58.83,ok
+Burkina Faso,BFA,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,35.51,ok
+Burundi,BDI,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Cambodia,KHM,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,39.86,ok
+Cameroon,CMR,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,35.4,ok
+Canada,CAN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,74.82,ok
+Cape Verde,CPV,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Central African Republic,CAF,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Chad,TCD,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,28.74,ok
+Chile,CHL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,64.97,ok
+China,CHN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,58.9,ok
+Colombia,COL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,56.66,ok
+Comoros,COM,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,30.33,ok
+Congo-Brazzaville,COG,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,67.22,ok
+Croatia,HRV,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,63.29,ok
+Cuba,CUB,calidad_de_vida_y_bienestar,0.55,1.0,0.55,2,True,44.68,ok
+Cyprus,CYP,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,63.36,ok
+Czechia,CZE,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,72.8,ok
+Côte d'Ivoire,CIV,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,calidad_de_vida_y_bienestar,0.45,1.0,0.45,1,True,32.95,ok
+Denmark,DNK,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,78.64,ok
+Djibouti,DJI,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Dominica,DMA,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Dominican Republic,DOM,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,54.55,ok
+East Timor,TLS,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Ecuador,ECU,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,53.57,ok
+Egypt,EGY,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,36.06,ok
+El Salvador,SLV,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,50.66,ok
+Equatorial Guinea,GNQ,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Eritrea,ERI,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Estonia,EST,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,72.05,ok
+Eswatini,SWZ,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,27.24,ok
+Ethiopia,ETH,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,28.76,ok
+Fiji,FJI,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Finland,FIN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,78.78,ok
+France,FRA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,69.77,ok
+Gabon,GAB,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,40.25,ok
+Gambia,GMB,calidad_de_vida_y_bienestar,0.45,1.0,0.45,1,True,44.85,ok
+Georgia,GEO,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,52.98,ok
+Germany,DEU,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,73.83,ok
+Ghana,GHA,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,41.19,ok
+Greece,GRC,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,62.26,ok
+Grenada,GRD,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Guatemala,GTM,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,52.2,ok
+Guinea,GIN,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,38.11,ok
+Guinea-Bissau,GNB,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Guyana,GUY,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Haiti,HTI,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Honduras,HND,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,51.19,ok
+Hong Kong,HKG,calidad_de_vida_y_bienestar,0.55,1.0,0.55,2,True,74.31,ok
+Hungary,HUN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,64.37,ok
+Iceland,ISL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,76.48,ok
+India,IND,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,42.02,ok
+Indonesia,IDN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,53.74,ok
+Iran,IRN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,41.9,ok
+Iraq,IRQ,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,38.3,ok
+Ireland,IRL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,74.03,ok
+Israel,ISR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,68.8,ok
+Italy,ITA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,67.07,ok
+Ivory Coast,CIV,calidad_de_vida_y_bienestar,0.45,1.0,0.45,1,True,50.8,ok
+Jamaica,JAM,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,52.47,ok
+Japan,JPN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,68.37,ok
+Jordan,JOR,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,42.05,ok
+Kazakhstan,KAZ,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,56.2,ok
+Kenya,KEN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,41.38,ok
+Kiribati,KIR,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Kosovo,XKX,calidad_de_vida_y_bienestar,0.45,1.0,0.45,1,True,65.61,ok
+Kuwait,KWT,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,63.77,ok
+Kyrgyzstan,KGZ,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,50.62,ok
+Laos,LAO,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,43.12,ok
+Latvia,LVA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,67.88,ok
+Lebanon,LBN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,30.61,ok
+Lesotho,LSO,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,25.81,ok
+Liberia,LBR,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,33.53,ok
+Libya,LBY,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,41.98,ok
+Liechtenstein,LIE,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Lithuania,LTU,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,70.5,ok
+Luxembourg,LUX,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,74.09,ok
+Macao,MAC,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Madagascar,MDG,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,32.92,ok
+Malawi,MWI,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,30.49,ok
+Malaysia,MYS,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,61.34,ok
+Maldives,MDV,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Mali,MLI,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,31.54,ok
+Malta,MLT,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,64.49,ok
+Marshall Islands,MHL,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Mauritania,MRT,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,31.05,ok
+Mauritius,MUS,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,60.81,ok
+Mexico,MEX,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,60.54,ok
+Micronesia,FSM,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Moldova,MDA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,54.44,ok
+Monaco,MCO,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Mongolia,MNG,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,51.74,ok
+Montenegro,MNE,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,59.52,ok
+Morocco,MAR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,43.67,ok
+Morocco / Western Sahara,MAR,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,37.7,ok
+Myanmar,MMR,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,33.61,ok
+Namibia,NAM,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,46.38,ok
+Nauru,NRU,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Nepal,NPL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,46.61,ok
+Netherlands,NLD,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,77.12,ok
+New Zealand,NZL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,75.06,ok
+Nicaragua,NIC,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,46.15,ok
+Niger,NER,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,33.79,ok
+Nigeria,NGA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,36.39,ok
+North Korea,PRK,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+North Macedonia,MKD,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,54.5,ok
+Northern Cyprus,CTU,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,75.91,ok
+OECS,CSS,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Pakistan,PAK,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,35.74,ok
+Palau,PLW,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Palestinian Territories,PSE,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,58.01,ok
+Papua New Guinea,PNG,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Paraguay,PRY,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,54.93,ok
+Peru,PER,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,55.45,ok
+Philippines,PHL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,54.92,ok
+Poland,POL,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,67.75,ok
+Portugal,PRT,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,68.88,ok
+Puerto Rico,PRI,calidad_de_vida_y_bienestar,0.3,1.0,0.3,1,True,43.17,ok
+Qatar,QAT,calidad_de_vida_y_bienestar,0.55,1.0,0.55,2,True,59.45,ok
+Republic of the Congo,COG,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,36.51,ok
+Romania,ROU,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,65.23,ok
+Russia,RUS,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,56.08,ok
+Rwanda,RWA,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Saint Kitts and Nevis,KNA,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Lucia,LCA,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Vincent and the Grenadines,VCT,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Samoa,WSM,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+San Marino,SMR,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Sao Tome and Principe,STP,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Saudi Arabia,SAU,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,56.62,ok
+Senegal,SEN,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,45.83,ok
+Serbia,SRB,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,59.75,ok
+Seychelles,SYC,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Sierra Leone,SLE,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,25.46,ok
+Singapore,SGP,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,72.87,ok
+Slovakia,SVK,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,66.68,ok
+Slovenia,SVN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,71.81,ok
+Solomon Islands,SLB,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Somalia,SOM,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+South Africa,ZAF,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,50.34,ok
+South Korea,KOR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,68.03,ok
+South Sudan,SSD,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Spain,ESP,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,71.66,ok
+Sri Lanka,LKA,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,41.06,ok
+Sudan,SDN,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Suriname,SUR,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Sweden,SWE,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,76.48,ok
+Switzerland,CHE,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,74.77,ok
+Syria,SYR,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Taiwan,TWN,calidad_de_vida_y_bienestar,0.3,1.0,0.3,1,True,66.96,ok
+Tajikistan,TJK,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,44.26,ok
+Tanzania,TZA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,35.04,ok
+Thailand,THA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,58.05,ok
+Timor-Leste,TLS,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Togo,TGO,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,31.89,ok
+Tonga,TON,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Trinidad and Tobago,TTO,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Tunisia,TUN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,44.24,ok
+Turkey,TUR,calidad_de_vida_y_bienestar,0.55,1.0,0.55,2,True,50.47,ok
+Turkmenistan,TKM,calidad_de_vida_y_bienestar,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Tuvalu,TUV,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Uganda,UGA,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,35.53,ok
+Ukraine,UKR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,50.77,ok
+United Arab Emirates,ARE,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,63.6,ok
+United Kingdom,GBR,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,72.81,ok
+United States,USA,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,69.77,ok
+Uruguay,URY,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,65.31,ok
+Uzbekistan,UZB,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,49.37,ok
+Vanuatu,VUT,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Vatican,VAT,calidad_de_vida_y_bienestar,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,41.89,ok
+Vietnam,VNM,calidad_de_vida_y_bienestar,1.0,1.0,1.0,3,True,55.82,ok
+Yemen,YEM,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,22.89,ok
+Zambia,ZMB,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,30.48,ok
+Zimbabwe,ZWE,calidad_de_vida_y_bienestar,0.7,1.0,0.7,2,True,25.41,ok
+Afghanistan,AFG,clima_y_desastres,0.65,1.0,0.65,2,True,39.68,ok
+Albania,ALB,clima_y_desastres,1.0,1.0,1.0,3,True,67.58,ok
+Algeria,DZA,clima_y_desastres,1.0,1.0,1.0,3,True,72.06,ok
+Andorra,AND,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Angola,AGO,clima_y_desastres,0.65,1.0,0.65,2,True,48.79,ok
+Antigua and Barbuda,ATG,clima_y_desastres,0.65,1.0,0.65,2,True,27.35,ok
+Argentina,ARG,clima_y_desastres,1.0,1.0,1.0,3,True,78.84,ok
+Armenia,ARM,clima_y_desastres,0.65,1.0,0.65,2,True,79.29,ok
+Aruba,ABW,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Australia,AUS,clima_y_desastres,1.0,1.0,1.0,3,True,72.3,ok
+Austria,AUT,clima_y_desastres,1.0,1.0,1.0,3,True,75.46,ok
+Azerbaijan,AZE,clima_y_desastres,0.65,1.0,0.65,2,True,79.4,ok
+Bahamas,BHS,clima_y_desastres,1.0,1.0,1.0,3,True,78.31,ok
+Bahrain,BHR,clima_y_desastres,0.8,1.0,0.8,2,True,80.52,ok
+Bangladesh,BGD,clima_y_desastres,0.65,1.0,0.65,2,True,1.74,ok
+Barbados,BRB,clima_y_desastres,1.0,1.0,1.0,3,True,85.41,ok
+Belarus,BLR,clima_y_desastres,1.0,1.0,1.0,3,True,72.68,ok
+Belgium,BEL,clima_y_desastres,1.0,1.0,1.0,3,True,74.67,ok
+Belize,BLZ,clima_y_desastres,1.0,1.0,1.0,3,True,67.12,ok
+Benin,BEN,clima_y_desastres,1.0,1.0,1.0,3,True,55.54,ok
+Bhutan,BTN,clima_y_desastres,0.65,1.0,0.65,2,True,92.41,ok
+Bolivia,BOL,clima_y_desastres,1.0,1.0,1.0,3,True,60.4,ok
+Bosnia and Herzegovina,BIH,clima_y_desastres,0.65,1.0,0.65,2,True,76.87,ok
+Bosnia-Herzegovina,BIH,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,clima_y_desastres,0.65,1.0,0.65,2,True,81.81,ok
+Brazil,BRA,clima_y_desastres,1.0,1.0,1.0,3,True,69.75,ok
+Brunei,BRN,clima_y_desastres,0.45,1.0,0.45,1,True,0.0,ok
+Bulgaria,BGR,clima_y_desastres,1.0,1.0,1.0,3,True,71.3,ok
+Burkina Faso,BFA,clima_y_desastres,0.65,1.0,0.65,2,True,50.02,ok
+Burundi,BDI,clima_y_desastres,0.65,1.0,0.65,2,True,51.0,ok
+Cambodia,KHM,clima_y_desastres,0.65,1.0,0.65,2,True,29.71,ok
+Cameroon,CMR,clima_y_desastres,0.65,1.0,0.65,2,True,49.2,ok
+Canada,CAN,clima_y_desastres,1.0,1.0,1.0,3,True,56.74,ok
+Cape Verde,CPV,clima_y_desastres,0.65,1.0,0.65,2,True,46.53,ok
+Central African Republic,CAF,clima_y_desastres,1.0,1.0,1.0,3,True,70.23,ok
+Chad,TCD,clima_y_desastres,0.65,1.0,0.65,2,True,48.46,ok
+Chile,CHL,clima_y_desastres,0.65,1.0,0.65,2,True,42.55,ok
+China,CHN,clima_y_desastres,1.0,1.0,1.0,3,True,63.13,ok
+Colombia,COL,clima_y_desastres,1.0,1.0,1.0,3,True,60.36,ok
+Comoros,COM,clima_y_desastres,0.65,1.0,0.65,2,True,57.19,ok
+Congo-Brazzaville,COG,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,clima_y_desastres,1.0,1.0,1.0,3,True,46.77,ok
+Croatia,HRV,clima_y_desastres,1.0,1.0,1.0,3,True,75.19,ok
+Cuba,CUB,clima_y_desastres,1.0,1.0,1.0,3,True,73.18,ok
+Cyprus,CYP,clima_y_desastres,0.65,1.0,0.65,2,True,94.0,ok
+Czechia,CZE,clima_y_desastres,1.0,1.0,1.0,3,True,71.9,ok
+Côte d'Ivoire,CIV,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,clima_y_desastres,0.65,1.0,0.65,2,True,45.28,ok
+Denmark,DNK,clima_y_desastres,1.0,1.0,1.0,3,True,77.11,ok
+Djibouti,DJI,clima_y_desastres,0.65,1.0,0.65,2,True,51.54,ok
+Dominica,DMA,clima_y_desastres,0.65,1.0,0.65,2,True,25.57,ok
+Dominican Republic,DOM,clima_y_desastres,1.0,1.0,1.0,3,True,52.84,ok
+East Timor,TLS,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Ecuador,ECU,clima_y_desastres,1.0,1.0,1.0,3,True,61.99,ok
+Egypt,EGY,clima_y_desastres,1.0,1.0,1.0,3,True,89.88,ok
+El Salvador,SLV,clima_y_desastres,0.65,1.0,0.65,2,True,30.27,ok
+Equatorial Guinea,GNQ,clima_y_desastres,0.65,1.0,0.65,2,True,83.85,ok
+Eritrea,ERI,clima_y_desastres,0.65,1.0,0.65,2,True,78.8,ok
+Estonia,EST,clima_y_desastres,0.65,1.0,0.65,2,True,96.87,ok
+Eswatini,SWZ,clima_y_desastres,0.65,1.0,0.65,2,True,72.23,ok
+Ethiopia,ETH,clima_y_desastres,1.0,1.0,1.0,3,True,67.26,ok
+Fiji,FJI,clima_y_desastres,0.65,1.0,0.65,2,True,36.94,ok
+Finland,FIN,clima_y_desastres,1.0,1.0,1.0,3,True,75.52,ok
+France,FRA,clima_y_desastres,1.0,1.0,1.0,3,True,70.06,ok
+Gabon,GAB,clima_y_desastres,1.0,1.0,1.0,3,True,74.14,ok
+Gambia,GMB,clima_y_desastres,1.0,1.0,1.0,3,True,59.02,ok
+Georgia,GEO,clima_y_desastres,0.65,1.0,0.65,2,True,75.29,ok
+Germany,DEU,clima_y_desastres,1.0,1.0,1.0,3,True,69.49,ok
+Ghana,GHA,clima_y_desastres,0.65,1.0,0.65,2,True,59.28,ok
+Greece,GRC,clima_y_desastres,0.65,1.0,0.65,2,True,65.4,ok
+Grenada,GRD,clima_y_desastres,0.65,1.0,0.65,2,True,95.83,ok
+Guatemala,GTM,clima_y_desastres,1.0,1.0,1.0,3,True,40.14,ok
+Guinea,GIN,clima_y_desastres,1.0,1.0,1.0,3,True,63.87,ok
+Guinea-Bissau,GNB,clima_y_desastres,1.0,1.0,1.0,3,True,53.44,ok
+Guyana,GUY,clima_y_desastres,0.65,1.0,0.65,2,True,25.21,ok
+Haiti,HTI,clima_y_desastres,1.0,1.0,1.0,3,True,34.88,ok
+Honduras,HND,clima_y_desastres,1.0,1.0,1.0,3,True,62.29,ok
+Hong Kong,HKG,clima_y_desastres,0.55,1.0,0.55,2,True,78.3,ok
+Hungary,HUN,clima_y_desastres,1.0,1.0,1.0,3,True,70.11,ok
+Iceland,ISL,clima_y_desastres,1.0,1.0,1.0,3,True,73.11,ok
+India,IND,clima_y_desastres,1.0,1.0,1.0,3,True,54.31,ok
+Indonesia,IDN,clima_y_desastres,1.0,1.0,1.0,3,True,42.27,ok
+Iran,IRN,clima_y_desastres,0.65,1.0,0.65,2,True,61.69,ok
+Iraq,IRQ,clima_y_desastres,0.65,1.0,0.65,2,True,78.69,ok
+Ireland,IRL,clima_y_desastres,1.0,1.0,1.0,3,True,72.03,ok
+Israel,ISR,clima_y_desastres,0.65,1.0,0.65,2,True,90.24,ok
+Italy,ITA,clima_y_desastres,1.0,1.0,1.0,3,True,69.36,ok
+Ivory Coast,CIV,clima_y_desastres,1.0,1.0,1.0,3,True,62.58,ok
+Jamaica,JAM,clima_y_desastres,0.65,1.0,0.65,2,True,50.12,ok
+Japan,JPN,clima_y_desastres,1.0,1.0,1.0,3,True,48.46,ok
+Jordan,JOR,clima_y_desastres,1.0,1.0,1.0,3,True,89.18,ok
+Kazakhstan,KAZ,clima_y_desastres,1.0,1.0,1.0,3,True,74.81,ok
+Kenya,KEN,clima_y_desastres,1.0,1.0,1.0,3,True,66.83,ok
+Kiribati,KIR,clima_y_desastres,0.65,1.0,0.65,2,True,46.33,ok
+Kosovo,XKX,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Kuwait,KWT,clima_y_desastres,1.0,1.0,1.0,3,True,81.72,ok
+Kyrgyzstan,KGZ,clima_y_desastres,1.0,1.0,1.0,3,True,65.18,ok
+Laos,LAO,clima_y_desastres,0.8,1.0,0.8,2,True,72.36,ok
+Latvia,LVA,clima_y_desastres,1.0,1.0,1.0,3,True,72.78,ok
+Lebanon,LBN,clima_y_desastres,1.0,1.0,1.0,3,True,87.17,ok
+Lesotho,LSO,clima_y_desastres,0.65,1.0,0.65,2,True,75.41,ok
+Liberia,LBR,clima_y_desastres,0.65,1.0,0.65,2,True,66.44,ok
+Libya,LBY,clima_y_desastres,0.65,1.0,0.65,2,True,90.57,ok
+Liechtenstein,LIE,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Lithuania,LTU,clima_y_desastres,0.65,1.0,0.65,2,True,94.43,ok
+Luxembourg,LUX,clima_y_desastres,0.65,1.0,0.65,2,True,94.97,ok
+Macao,MAC,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+Madagascar,MDG,clima_y_desastres,1.0,1.0,1.0,3,True,63.36,ok
+Malawi,MWI,clima_y_desastres,0.65,1.0,0.65,2,True,55.82,ok
+Malaysia,MYS,clima_y_desastres,1.0,1.0,1.0,3,True,59.01,ok
+Maldives,MDV,clima_y_desastres,0.65,1.0,0.65,2,True,95.29,ok
+Mali,MLI,clima_y_desastres,0.65,1.0,0.65,2,True,54.57,ok
+Malta,MLT,clima_y_desastres,0.45,1.0,0.45,1,True,100.0,ok
+Marshall Islands,MHL,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Mauritania,MRT,clima_y_desastres,1.0,1.0,1.0,3,True,68.33,ok
+Mauritius,MUS,clima_y_desastres,0.65,1.0,0.65,2,True,65.45,ok
+Mexico,MEX,clima_y_desastres,1.0,1.0,1.0,3,True,68.54,ok
+Micronesia,FSM,clima_y_desastres,0.45,1.0,0.45,1,True,67.89,ok
+Moldova,MDA,clima_y_desastres,0.45,1.0,0.45,1,True,83.96,ok
+Monaco,MCO,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Mongolia,MNG,clima_y_desastres,1.0,1.0,1.0,3,True,56.07,ok
+Montenegro,MNE,clima_y_desastres,0.65,1.0,0.65,2,True,79.32,ok
+Morocco,MAR,clima_y_desastres,1.0,1.0,1.0,3,True,76.57,ok
+Morocco / Western Sahara,MAR,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,clima_y_desastres,1.0,1.0,1.0,3,True,60.35,ok
+Myanmar,MMR,clima_y_desastres,1.0,1.0,1.0,3,True,61.49,ok
+Namibia,NAM,clima_y_desastres,1.0,1.0,1.0,3,True,80.83,ok
+Nauru,NRU,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Nepal,NPL,clima_y_desastres,1.0,1.0,1.0,3,True,76.45,ok
+Netherlands,NLD,clima_y_desastres,0.45,1.0,0.45,1,True,64.19,ok
+New Zealand,NZL,clima_y_desastres,1.0,1.0,1.0,3,True,78.88,ok
+Nicaragua,NIC,clima_y_desastres,1.0,1.0,1.0,3,True,45.04,ok
+Niger,NER,clima_y_desastres,0.45,1.0,0.45,1,True,29.9,ok
+Nigeria,NGA,clima_y_desastres,1.0,1.0,1.0,3,True,38.84,ok
+North Korea,PRK,clima_y_desastres,0.55,1.0,0.55,2,True,55.42,ok
+North Macedonia,MKD,clima_y_desastres,0.8,1.0,0.8,2,True,70.68,ok
+Northern Cyprus,CTU,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,clima_y_desastres,1.0,1.0,1.0,3,True,71.41,ok
+OECS,CSS,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,clima_y_desastres,1.0,1.0,1.0,3,True,79.97,ok
+Pakistan,PAK,clima_y_desastres,1.0,1.0,1.0,3,True,59.79,ok
+Palau,PLW,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+Palestinian Territories,PSE,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,clima_y_desastres,1.0,1.0,1.0,3,True,65.01,ok
+Papua New Guinea,PNG,clima_y_desastres,0.65,1.0,0.65,2,True,15.33,ok
+Paraguay,PRY,clima_y_desastres,0.65,1.0,0.65,2,True,82.33,ok
+Peru,PER,clima_y_desastres,0.65,1.0,0.65,2,True,56.87,ok
+Philippines,PHL,clima_y_desastres,0.8,1.0,0.8,2,True,25.07,ok
+Poland,POL,clima_y_desastres,1.0,1.0,1.0,3,True,71.0,ok
+Portugal,PRT,clima_y_desastres,1.0,1.0,1.0,3,True,82.62,ok
+Puerto Rico,PRI,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+Qatar,QAT,clima_y_desastres,1.0,1.0,1.0,3,True,83.85,ok
+Republic of the Congo,COG,clima_y_desastres,1.0,1.0,1.0,3,True,71.01,ok
+Romania,ROU,clima_y_desastres,1.0,1.0,1.0,3,True,63.24,ok
+Russia,RUS,clima_y_desastres,0.8,1.0,0.8,2,True,64.39,ok
+Rwanda,RWA,clima_y_desastres,0.65,1.0,0.65,2,True,66.62,ok
+Saint Kitts and Nevis,KNA,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+Saint Lucia,LCA,clima_y_desastres,0.65,1.0,0.65,2,True,84.57,ok
+Saint Vincent and the Grenadines,VCT,clima_y_desastres,0.65,1.0,0.65,2,True,94.03,ok
+Samoa,WSM,clima_y_desastres,0.65,1.0,0.65,2,True,78.47,ok
+San Marino,SMR,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Sao Tome and Principe,STP,clima_y_desastres,0.65,1.0,0.65,2,True,95.91,ok
+Saudi Arabia,SAU,clima_y_desastres,1.0,1.0,1.0,3,True,81.71,ok
+Senegal,SEN,clima_y_desastres,1.0,1.0,1.0,3,True,64.84,ok
+Serbia,SRB,clima_y_desastres,0.65,1.0,0.65,2,True,73.22,ok
+Seychelles,SYC,clima_y_desastres,0.65,1.0,0.65,2,True,89.63,ok
+Sierra Leone,SLE,clima_y_desastres,0.65,1.0,0.65,2,True,60.86,ok
+Singapore,SGP,clima_y_desastres,1.0,1.0,1.0,3,True,84.02,ok
+Slovakia,SVK,clima_y_desastres,1.0,1.0,1.0,3,True,76.68,ok
+Slovenia,SVN,clima_y_desastres,0.65,1.0,0.65,2,True,88.44,ok
+Solomon Islands,SLB,clima_y_desastres,0.65,1.0,0.65,2,True,23.05,ok
+Somalia,SOM,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+South Africa,ZAF,clima_y_desastres,1.0,1.0,1.0,3,True,72.54,ok
+South Korea,KOR,clima_y_desastres,1.0,1.0,1.0,3,True,68.11,ok
+South Sudan,SSD,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+Spain,ESP,clima_y_desastres,1.0,1.0,1.0,3,True,78.7,ok
+Sri Lanka,LKA,clima_y_desastres,1.0,1.0,1.0,3,True,58.87,ok
+Sudan,SDN,clima_y_desastres,0.45,1.0,0.45,1,True,61.77,ok
+Suriname,SUR,clima_y_desastres,1.0,1.0,1.0,3,True,72.91,ok
+Sweden,SWE,clima_y_desastres,1.0,1.0,1.0,3,True,74.69,ok
+Switzerland,CHE,clima_y_desastres,1.0,1.0,1.0,3,True,76.13,ok
+Syria,SYR,clima_y_desastres,1.0,1.0,1.0,3,True,83.39,ok
+Taiwan,TWN,clima_y_desastres,0.35,1.0,0.35,1,True,81.52,ok
+Tajikistan,TJK,clima_y_desastres,1.0,1.0,1.0,3,True,70.84,ok
+Tanzania,TZA,clima_y_desastres,0.8,1.0,0.8,2,True,63.99,ok
+Thailand,THA,clima_y_desastres,0.65,1.0,0.65,2,True,54.75,ok
+Timor-Leste,TLS,clima_y_desastres,0.65,1.0,0.65,2,True,35.93,ok
+Togo,TGO,clima_y_desastres,1.0,1.0,1.0,3,True,58.86,ok
+Tonga,TON,clima_y_desastres,0.65,1.0,0.65,2,True,24.87,ok
+Trinidad and Tobago,TTO,clima_y_desastres,0.65,1.0,0.65,2,True,71.69,ok
+Tunisia,TUN,clima_y_desastres,1.0,1.0,1.0,3,True,85.92,ok
+Turkey,TUR,clima_y_desastres,1.0,1.0,1.0,3,True,66.46,ok
+Turkmenistan,TKM,clima_y_desastres,1.0,1.0,1.0,3,True,85.93,ok
+Tuvalu,TUV,clima_y_desastres,0.2,1.0,0.2,1,False,-1.0,insufficient_coverage
+Uganda,UGA,clima_y_desastres,1.0,1.0,1.0,3,True,64.89,ok
+Ukraine,UKR,clima_y_desastres,1.0,1.0,1.0,3,True,72.44,ok
+United Arab Emirates,ARE,clima_y_desastres,0.8,1.0,0.8,2,True,78.8,ok
+United Kingdom,GBR,clima_y_desastres,0.8,1.0,0.8,2,True,75.6,ok
+United States,USA,clima_y_desastres,0.8,1.0,0.8,2,True,80.37,ok
+Uruguay,URY,clima_y_desastres,1.0,1.0,1.0,3,True,61.3,ok
+Uzbekistan,UZB,clima_y_desastres,1.0,1.0,1.0,3,True,73.14,ok
+Vanuatu,VUT,clima_y_desastres,0.65,1.0,0.65,2,True,22.47,ok
+Vatican,VAT,clima_y_desastres,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,clima_y_desastres,0.8,1.0,0.8,2,True,65.38,ok
+Vietnam,VNM,clima_y_desastres,1.0,1.0,1.0,3,True,46.55,ok
+Yemen,YEM,clima_y_desastres,0.65,1.0,0.65,2,True,70.12,ok
+Zambia,ZMB,clima_y_desastres,0.65,1.0,0.65,2,True,68.19,ok
+Zimbabwe,ZWE,clima_y_desastres,0.65,1.0,0.65,2,True,54.73,ok
+Afghanistan,AFG,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,37.08,ok
+Albania,ALB,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,33.81,ok
+Algeria,DZA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,32.14,ok
+Andorra,AND,economia_y_costo_de_vida,0.4,1.0,0.4,2,False,46.09,ok
+Angola,AGO,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,45.2,ok
+Antigua and Barbuda,ATG,economia_y_costo_de_vida,0.65,1.0,0.65,4,False,42.98,ok
+Argentina,ARG,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,22.33,ok
+Armenia,ARM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,30.04,ok
+Aruba,ABW,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Australia,AUS,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,64.7,ok
+Austria,AUT,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,60.28,ok
+Azerbaijan,AZE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,44.22,ok
+Bahamas,BHS,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Bahrain,BHR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,69.12,ok
+Bangladesh,BGD,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,47.69,ok
+Barbados,BRB,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,42.66,ok
+Belarus,BLR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,39.67,ok
+Belgium,BEL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,54.84,ok
+Belize,BLZ,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,54.65,ok
+Benin,BEN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,55.39,ok
+Bhutan,BTN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,50.64,ok
+Bolivia,BOL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.15,ok
+Bosnia and Herzegovina,BIH,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,27.97,ok
+Bosnia-Herzegovina,BIH,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,37.74,ok
+Brazil,BRA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,32.04,ok
+Brunei,BRN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,65.29,ok
+Bulgaria,BGR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,45.11,ok
+Burkina Faso,BFA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,48.01,ok
+Burundi,BDI,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,58.5,ok
+Cambodia,KHM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,60.11,ok
+Cameroon,CMR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.41,ok
+Canada,CAN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,65.75,ok
+Cape Verde,CPV,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,42.14,ok
+Central African Republic,CAF,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,33.47,ok
+Chad,TCD,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,54.79,ok
+Chile,CHL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.76,ok
+China,CHN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.28,ok
+Colombia,COL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,38.16,ok
+Comoros,COM,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,37.22,ok
+Congo-Brazzaville,COG,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,37.59,ok
+Croatia,HRV,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,45.8,ok
+Cuba,CUB,economia_y_costo_de_vida,0.75,1.0,0.75,4,False,49.44,ok
+Cyprus,CYP,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.57,ok
+Czechia,CZE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.82,ok
+Côte d'Ivoire,CIV,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,46.9,ok
+Denmark,DNK,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,69.31,ok
+Djibouti,DJI,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,35.54,ok
+Dominica,DMA,economia_y_costo_de_vida,0.65,1.0,0.65,4,False,40.14,ok
+Dominican Republic,DOM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,48.75,ok
+East Timor,TLS,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,55.72,ok
+Ecuador,ECU,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,54.43,ok
+Egypt,EGY,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,23.96,ok
+El Salvador,SLV,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,47.77,ok
+Equatorial Guinea,GNQ,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.04,ok
+Eritrea,ERI,economia_y_costo_de_vida,0.7,1.0,0.7,4,False,41.84,ok
+Estonia,EST,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,50.25,ok
+Eswatini,SWZ,economia_y_costo_de_vida,0.4,1.0,0.4,2,False,40.5,ok
+Ethiopia,ETH,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,56.22,ok
+Fiji,FJI,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.49,ok
+Finland,FIN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,58.87,ok
+France,FRA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,47.58,ok
+Gabon,GAB,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,25.96,ok
+Gambia,GMB,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Georgia,GEO,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,36.46,ok
+Germany,DEU,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,61.66,ok
+Ghana,GHA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,43.25,ok
+Greece,GRC,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,30.54,ok
+Grenada,GRD,economia_y_costo_de_vida,0.5,1.0,0.5,3,False,44.21,ok
+Guatemala,GTM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,49.66,ok
+Guinea,GIN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,41.37,ok
+Guinea-Bissau,GNB,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,56.23,ok
+Guyana,GUY,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,38.33,ok
+Haiti,HTI,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,27.44,ok
+Honduras,HND,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,55.15,ok
+Hong Kong,HKG,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Hungary,HUN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.55,ok
+Iceland,ISL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,76.62,ok
+India,IND,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,30.77,ok
+Indonesia,IDN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,51.45,ok
+Iran,IRN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,16.51,ok
+Iraq,IRQ,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,35.63,ok
+Ireland,IRL,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Israel,ISR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,64.44,ok
+Italy,ITA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,41.32,ok
+Ivory Coast,CIV,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,49.72,ok
+Jamaica,JAM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,42.74,ok
+Japan,JPN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,61.74,ok
+Jordan,JOR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,30.23,ok
+Kazakhstan,KAZ,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,47.93,ok
+Kenya,KEN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,53.23,ok
+Kiribati,KIR,economia_y_costo_de_vida,0.5,1.0,0.5,3,False,42.43,ok
+Kosovo,XKX,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Kuwait,KWT,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,68.91,ok
+Kyrgyzstan,KGZ,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,42.47,ok
+Laos,LAO,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,65.66,ok
+Latvia,LVA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.21,ok
+Lebanon,LBN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,41.36,ok
+Lesotho,LSO,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,35.26,ok
+Liberia,LBR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,35.86,ok
+Libya,LBY,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,32.12,ok
+Liechtenstein,LIE,economia_y_costo_de_vida,0.5,1.0,0.5,3,False,69.23,ok
+Lithuania,LTU,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.14,ok
+Luxembourg,LUX,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,69.46,ok
+Macao,MAC,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Madagascar,MDG,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,65.16,ok
+Malawi,MWI,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,56.24,ok
+Malaysia,MYS,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,54.07,ok
+Maldives,MDV,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,62.67,ok
+Mali,MLI,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,43.45,ok
+Malta,MLT,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.8,ok
+Marshall Islands,MHL,economia_y_costo_de_vida,0.5,1.0,0.5,3,False,11.55,ok
+Mauritania,MRT,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,28.22,ok
+Mauritius,MUS,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,49.85,ok
+Mexico,MEX,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,44.1,ok
+Micronesia,FSM,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Moldova,MDA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,32.89,ok
+Monaco,MCO,economia_y_costo_de_vida,0.4,1.0,0.4,2,False,63.57,ok
+Mongolia,MNG,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,39.59,ok
+Montenegro,MNE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,33.67,ok
+Morocco,MAR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,39.46,ok
+Morocco / Western Sahara,MAR,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,58.28,ok
+Myanmar,MMR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,53.63,ok
+Namibia,NAM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,32.29,ok
+Nauru,NRU,economia_y_costo_de_vida,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Nepal,NPL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,54.61,ok
+Netherlands,NLD,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,65.76,ok
+New Zealand,NZL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,65.68,ok
+Nicaragua,NIC,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,41.04,ok
+Niger,NER,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,50.7,ok
+Nigeria,NGA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,33.67,ok
+North Korea,PRK,economia_y_costo_de_vida,0.6,1.0,0.6,3,False,55.64,ok
+North Macedonia,MKD,economia_y_costo_de_vida,0.4,1.0,0.4,2,False,9.79,ok
+Northern Cyprus,CTU,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,70.48,ok
+OECS,CSS,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,69.36,ok
+Pakistan,PAK,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,39.85,ok
+Palau,PLW,economia_y_costo_de_vida,0.5,1.0,0.5,3,False,38.72,ok
+Palestinian Territories,PSE,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,55.41,ok
+Papua New Guinea,PNG,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,53.17,ok
+Paraguay,PRY,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,49.64,ok
+Peru,PER,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,57.89,ok
+Philippines,PHL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,47.74,ok
+Poland,POL,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.79,ok
+Portugal,PRT,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,51.34,ok
+Puerto Rico,PRI,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Qatar,QAT,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,92.92,ok
+Republic of the Congo,COG,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,51.33,ok
+Romania,ROU,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,46.45,ok
+Russia,RUS,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,42.83,ok
+Rwanda,RWA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,58.16,ok
+Saint Kitts and Nevis,KNA,economia_y_costo_de_vida,0.5,1.0,0.5,3,False,53.56,ok
+Saint Lucia,LCA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,35.97,ok
+Saint Vincent and the Grenadines,VCT,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,35.95,ok
+Samoa,WSM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,48.13,ok
+San Marino,SMR,economia_y_costo_de_vida,0.65,1.0,0.65,4,False,61.75,ok
+Sao Tome and Principe,STP,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Saudi Arabia,SAU,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,59.67,ok
+Senegal,SEN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,35.36,ok
+Serbia,SRB,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,34.22,ok
+Seychelles,SYC,economia_y_costo_de_vida,0.65,1.0,0.65,4,False,52.58,ok
+Sierra Leone,SLE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,41.85,ok
+Singapore,SGP,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,75.89,ok
+Slovakia,SVK,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,45.3,ok
+Slovenia,SVN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,55.14,ok
+Solomon Islands,SLB,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,70.73,ok
+Somalia,SOM,economia_y_costo_de_vida,0.75,1.0,0.75,4,False,16.59,ok
+South Africa,ZAF,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,30.86,ok
+South Korea,KOR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,60.77,ok
+South Sudan,SSD,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,34.13,ok
+Spain,ESP,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,41.83,ok
+Sri Lanka,LKA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,36.67,ok
+Sudan,SDN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,17.82,ok
+Suriname,SUR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,27.65,ok
+Sweden,SWE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,60.36,ok
+Switzerland,CHE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,73.15,ok
+Syria,SYR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,27.16,ok
+Taiwan,TWN,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Tajikistan,TJK,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,22.71,ok
+Tanzania,TZA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,58.8,ok
+Thailand,THA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,55.1,ok
+Timor-Leste,TLS,economia_y_costo_de_vida,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Togo,TGO,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,56.35,ok
+Tonga,TON,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,51.9,ok
+Trinidad and Tobago,TTO,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,59.48,ok
+Tunisia,TUN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,20.12,ok
+Turkey,TUR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,20.05,ok
+Turkmenistan,TKM,economia_y_costo_de_vida,0.75,1.0,0.75,4,False,51.38,ok
+Tuvalu,TUV,economia_y_costo_de_vida,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Uganda,UGA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,63.84,ok
+Ukraine,UKR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,28.4,ok
+United Arab Emirates,ARE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,85.43,ok
+United Kingdom,GBR,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,62.73,ok
+United States,USA,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.62,ok
+Uruguay,URY,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,40.19,ok
+Uzbekistan,UZB,economia_y_costo_de_vida,0.85,1.0,0.85,5,False,37.73,ok
+Vanuatu,VUT,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,56.87,ok
+Vatican,VAT,economia_y_costo_de_vida,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,26.86,ok
+Vietnam,VNM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.05,ok
+Yemen,YEM,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,24.67,ok
+Zambia,ZMB,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,52.04,ok
+Zimbabwe,ZWE,economia_y_costo_de_vida,1.0,1.0,1.0,6,False,63.7,ok
+Afghanistan,AFG,gobernanza_y_libertades,1.0,1.0,1.0,3,True,25.24,ok
+Albania,ALB,gobernanza_y_libertades,1.0,1.0,1.0,3,True,60.6,ok
+Algeria,DZA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,35.55,ok
+Andorra,AND,gobernanza_y_libertades,0.75,1.0,0.75,2,True,85.16,ok
+Angola,AGO,gobernanza_y_libertades,1.0,1.0,1.0,3,True,33.15,ok
+Antigua and Barbuda,ATG,gobernanza_y_libertades,0.4,1.0,0.4,1,True,85.0,ok
+Argentina,ARG,gobernanza_y_libertades,1.0,1.0,1.0,3,True,76.93,ok
+Armenia,ARM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,60.69,ok
+Aruba,ABW,gobernanza_y_libertades,0.0,1.0,0.0,0,False,-1.0,no_data
+Australia,AUS,gobernanza_y_libertades,1.0,1.0,1.0,3,True,89.96,ok
+Austria,AUT,gobernanza_y_libertades,1.0,1.0,1.0,3,True,88.21,ok
+Azerbaijan,AZE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,22.0,ok
+Bahamas,BHS,gobernanza_y_libertades,0.4,1.0,0.4,1,True,91.0,ok
+Bahrain,BHR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,19.79,ok
+Bangladesh,BGD,gobernanza_y_libertades,1.0,1.0,1.0,3,True,31.89,ok
+Barbados,BRB,gobernanza_y_libertades,0.4,1.0,0.4,1,True,95.0,ok
+Belarus,BLR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,22.71,ok
+Belgium,BEL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,89.38,ok
+Belize,BLZ,gobernanza_y_libertades,0.75,1.0,0.75,2,True,78.76,ok
+Benin,BEN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,58.39,ok
+Bhutan,BTN,gobernanza_y_libertades,0.75,1.0,0.75,2,True,59.12,ok
+Bolivia,BOL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,52.76,ok
+Bosnia and Herzegovina,BIH,gobernanza_y_libertades,0.65,1.0,0.65,2,True,47.68,ok
+Bosnia-Herzegovina,BIH,gobernanza_y_libertades,0.35,1.0,0.35,1,True,65.43,ok
+Botswana,BWA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,69.42,ok
+Brazil,BRA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,63.65,ok
+Brunei,BRN,gobernanza_y_libertades,0.75,1.0,0.75,2,True,35.56,ok
+Bulgaria,BGR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,70.74,ok
+Burkina Faso,BFA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,58.66,ok
+Burundi,BDI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,24.29,ok
+Cambodia,KHM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,25.49,ok
+Cameroon,CMR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,25.6,ok
+Canada,CAN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,92.65,ok
+Cape Verde,CPV,gobernanza_y_libertades,0.75,1.0,0.75,2,True,84.4,ok
+Central African Republic,CAF,gobernanza_y_libertades,1.0,1.0,1.0,3,True,24.88,ok
+Chad,TCD,gobernanza_y_libertades,1.0,1.0,1.0,3,True,26.39,ok
+Chile,CHL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,79.26,ok
+China,CHN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,17.9,ok
+Colombia,COL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,53.46,ok
+Comoros,COM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,44.28,ok
+Congo-Brazzaville,COG,gobernanza_y_libertades,0.35,1.0,0.35,1,True,60.42,ok
+Costa Rica,CRI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,86.41,ok
+Croatia,HRV,gobernanza_y_libertades,1.0,1.0,1.0,3,True,77.98,ok
+Cuba,CUB,gobernanza_y_libertades,1.0,1.0,1.0,3,True,17.24,ok
+Cyprus,CYP,gobernanza_y_libertades,1.0,1.0,1.0,3,True,82.25,ok
+Czechia,CZE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,87.42,ok
+Côte d'Ivoire,CIV,gobernanza_y_libertades,0.35,1.0,0.35,1,True,68.83,ok
+Democratic Republic of the Congo,COD,gobernanza_y_libertades,0.75,1.0,0.75,2,True,32.26,ok
+Denmark,DNK,gobernanza_y_libertades,1.0,1.0,1.0,3,True,95.12,ok
+Djibouti,DJI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,27.22,ok
+Dominica,DMA,gobernanza_y_libertades,0.4,1.0,0.4,1,True,93.0,ok
+Dominican Republic,DOM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,66.56,ok
+East Timor,TLS,gobernanza_y_libertades,0.35,1.0,0.35,1,True,84.49,ok
+Ecuador,ECU,gobernanza_y_libertades,1.0,1.0,1.0,3,True,58.89,ok
+Egypt,EGY,gobernanza_y_libertades,1.0,1.0,1.0,3,True,20.34,ok
+El Salvador,SLV,gobernanza_y_libertades,1.0,1.0,1.0,3,True,54.25,ok
+Equatorial Guinea,GNQ,gobernanza_y_libertades,1.0,1.0,1.0,3,True,20.02,ok
+Eritrea,ERI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,10.55,ok
+Estonia,EST,gobernanza_y_libertades,1.0,1.0,1.0,3,True,91.15,ok
+Eswatini,SWZ,gobernanza_y_libertades,1.0,1.0,1.0,3,True,26.89,ok
+Ethiopia,ETH,gobernanza_y_libertades,1.0,1.0,1.0,3,True,29.78,ok
+Fiji,FJI,gobernanza_y_libertades,0.75,1.0,0.75,2,True,59.66,ok
+Finland,FIN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,95.78,ok
+France,FRA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,85.75,ok
+Gabon,GAB,gobernanza_y_libertades,1.0,1.0,1.0,3,True,34.04,ok
+Gambia,GMB,gobernanza_y_libertades,0.35,1.0,0.35,1,True,71.06,ok
+Georgia,GEO,gobernanza_y_libertades,1.0,1.0,1.0,3,True,62.69,ok
+Germany,DEU,gobernanza_y_libertades,1.0,1.0,1.0,3,True,91.18,ok
+Ghana,GHA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,72.92,ok
+Greece,GRC,gobernanza_y_libertades,1.0,1.0,1.0,3,True,73.35,ok
+Grenada,GRD,gobernanza_y_libertades,0.4,1.0,0.4,1,True,89.0,ok
+Guatemala,GTM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,45.25,ok
+Guinea,GIN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,42.34,ok
+Guinea-Bissau,GNB,gobernanza_y_libertades,0.75,1.0,0.75,2,True,51.67,ok
+Guyana,GUY,gobernanza_y_libertades,1.0,1.0,1.0,3,True,68.17,ok
+Haiti,HTI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,38.87,ok
+Honduras,HND,gobernanza_y_libertades,1.0,1.0,1.0,3,True,35.77,ok
+Hong Kong,HKG,gobernanza_y_libertades,1.0,1.0,1.0,3,True,53.17,ok
+Hungary,HUN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,61.84,ok
+Iceland,ISL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,91.72,ok
+India,IND,gobernanza_y_libertades,1.0,1.0,1.0,3,True,53.19,ok
+Indonesia,IDN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,56.79,ok
+Iran,IRN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,15.48,ok
+Iraq,IRQ,gobernanza_y_libertades,1.0,1.0,1.0,3,True,26.99,ok
+Ireland,IRL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,94.92,ok
+Israel,ISR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,70.83,ok
+Italy,ITA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,81.18,ok
+Ivory Coast,CIV,gobernanza_y_libertades,0.4,1.0,0.4,1,True,51.0,ok
+Jamaica,JAM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,76.12,ok
+Japan,JPN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,83.42,ok
+Jordan,JOR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,40.18,ok
+Kazakhstan,KAZ,gobernanza_y_libertades,1.0,1.0,1.0,3,True,32.07,ok
+Kenya,KEN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,48.2,ok
+Kiribati,KIR,gobernanza_y_libertades,0.4,1.0,0.4,1,True,93.0,ok
+Kosovo,XKX,gobernanza_y_libertades,0.75,1.0,0.75,2,True,60.71,ok
+Kuwait,KWT,gobernanza_y_libertades,1.0,1.0,1.0,3,True,36.47,ok
+Kyrgyzstan,KGZ,gobernanza_y_libertades,1.0,1.0,1.0,3,True,40.31,ok
+Laos,LAO,gobernanza_y_libertades,1.0,1.0,1.0,3,True,20.39,ok
+Latvia,LVA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,86.11,ok
+Lebanon,LBN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,40.11,ok
+Lesotho,LSO,gobernanza_y_libertades,1.0,1.0,1.0,3,True,59.15,ok
+Liberia,LBR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,55.7,ok
+Libya,LBY,gobernanza_y_libertades,1.0,1.0,1.0,3,True,18.9,ok
+Liechtenstein,LIE,gobernanza_y_libertades,0.75,1.0,0.75,2,True,87.42,ok
+Lithuania,LTU,gobernanza_y_libertades,1.0,1.0,1.0,3,True,88.8,ok
+Luxembourg,LUX,gobernanza_y_libertades,1.0,1.0,1.0,3,True,92.89,ok
+Macao,MAC,gobernanza_y_libertades,0.0,1.0,0.0,0,False,-1.0,no_data
+Madagascar,MDG,gobernanza_y_libertades,1.0,1.0,1.0,3,True,52.75,ok
+Malawi,MWI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,60.27,ok
+Malaysia,MYS,gobernanza_y_libertades,1.0,1.0,1.0,3,True,54.63,ok
+Maldives,MDV,gobernanza_y_libertades,0.75,1.0,0.75,2,True,47.9,ok
+Mali,MLI,gobernanza_y_libertades,1.0,1.0,1.0,3,True,43.36,ok
+Malta,MLT,gobernanza_y_libertades,1.0,1.0,1.0,3,True,78.77,ok
+Marshall Islands,MHL,gobernanza_y_libertades,0.4,1.0,0.4,1,True,93.0,ok
+Mauritania,MRT,gobernanza_y_libertades,1.0,1.0,1.0,3,True,36.68,ok
+Mauritius,MUS,gobernanza_y_libertades,1.0,1.0,1.0,3,True,77.34,ok
+Mexico,MEX,gobernanza_y_libertades,1.0,1.0,1.0,3,True,52.26,ok
+Micronesia,FSM,gobernanza_y_libertades,0.4,1.0,0.4,1,True,92.0,ok
+Moldova,MDA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,65.38,ok
+Monaco,MCO,gobernanza_y_libertades,0.4,1.0,0.4,1,True,83.0,ok
+Mongolia,MNG,gobernanza_y_libertades,1.0,1.0,1.0,3,True,69.66,ok
+Montenegro,MNE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,69.48,ok
+Morocco,MAR,gobernanza_y_libertades,0.65,1.0,0.65,2,True,36.22,ok
+Morocco / Western Sahara,MAR,gobernanza_y_libertades,0.35,1.0,0.35,1,True,43.69,ok
+Mozambique,MOZ,gobernanza_y_libertades,1.0,1.0,1.0,3,True,44.73,ok
+Myanmar,MMR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,21.89,ok
+Namibia,NAM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,76.95,ok
+Nauru,NRU,gobernanza_y_libertades,0.4,1.0,0.4,1,True,77.0,ok
+Nepal,NPL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,55.51,ok
+Netherlands,NLD,gobernanza_y_libertades,1.0,1.0,1.0,3,True,95.05,ok
+New Zealand,NZL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,93.68,ok
+Nicaragua,NIC,gobernanza_y_libertades,1.0,1.0,1.0,3,True,27.65,ok
+Niger,NER,gobernanza_y_libertades,1.0,1.0,1.0,3,True,52.0,ok
+Nigeria,NGA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,41.83,ok
+North Korea,PRK,gobernanza_y_libertades,0.75,1.0,0.75,2,True,11.74,ok
+North Macedonia,MKD,gobernanza_y_libertades,1.0,1.0,1.0,3,True,66.08,ok
+Northern Cyprus,CTU,gobernanza_y_libertades,0.75,1.0,0.75,2,True,72.01,ok
+Norway,NOR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,98.31,ok
+OECS,CSS,gobernanza_y_libertades,0.35,1.0,0.35,1,True,58.36,ok
+Oman,OMN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,29.27,ok
+Pakistan,PAK,gobernanza_y_libertades,1.0,1.0,1.0,3,True,34.86,ok
+Palau,PLW,gobernanza_y_libertades,0.4,1.0,0.4,1,True,92.0,ok
+Palestinian Territories,PSE,gobernanza_y_libertades,0.35,1.0,0.35,1,True,37.86,ok
+Panama,PAN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,71.48,ok
+Papua New Guinea,PNG,gobernanza_y_libertades,1.0,1.0,1.0,3,True,59.66,ok
+Paraguay,PRY,gobernanza_y_libertades,1.0,1.0,1.0,3,True,56.6,ok
+Peru,PER,gobernanza_y_libertades,1.0,1.0,1.0,3,True,62.03,ok
+Philippines,PHL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,50.87,ok
+Poland,POL,gobernanza_y_libertades,1.0,1.0,1.0,3,True,74.76,ok
+Portugal,PRT,gobernanza_y_libertades,1.0,1.0,1.0,3,True,91.0,ok
+Puerto Rico,PRI,gobernanza_y_libertades,0.4,1.0,0.4,1,True,89.0,ok
+Qatar,QAT,gobernanza_y_libertades,1.0,1.0,1.0,3,True,38.7,ok
+Republic of the Congo,COG,gobernanza_y_libertades,0.65,1.0,0.65,2,True,15.13,ok
+Romania,ROU,gobernanza_y_libertades,1.0,1.0,1.0,3,True,75.98,ok
+Russia,RUS,gobernanza_y_libertades,1.0,1.0,1.0,3,True,24.71,ok
+Rwanda,RWA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,37.6,ok
+Saint Kitts and Nevis,KNA,gobernanza_y_libertades,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Lucia,LCA,gobernanza_y_libertades,0.4,1.0,0.4,1,True,92.0,ok
+Saint Vincent and the Grenadines,VCT,gobernanza_y_libertades,0.0,1.0,0.0,0,False,-1.0,no_data
+Samoa,WSM,gobernanza_y_libertades,0.75,1.0,0.75,2,True,81.54,ok
+San Marino,SMR,gobernanza_y_libertades,0.4,1.0,0.4,1,True,95.0,ok
+Sao Tome and Principe,STP,gobernanza_y_libertades,0.4,1.0,0.4,1,True,84.0,ok
+Saudi Arabia,SAU,gobernanza_y_libertades,1.0,1.0,1.0,3,True,19.22,ok
+Senegal,SEN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,63.85,ok
+Serbia,SRB,gobernanza_y_libertades,1.0,1.0,1.0,3,True,58.64,ok
+Seychelles,SYC,gobernanza_y_libertades,1.0,1.0,1.0,3,True,71.73,ok
+Sierra Leone,SLE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,57.86,ok
+Singapore,SGP,gobernanza_y_libertades,1.0,1.0,1.0,3,True,52.32,ok
+Slovakia,SVK,gobernanza_y_libertades,1.0,1.0,1.0,3,True,85.09,ok
+Slovenia,SVN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,82.5,ok
+Solomon Islands,SLB,gobernanza_y_libertades,0.4,1.0,0.4,1,True,79.0,ok
+Somalia,SOM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,18.37,ok
+South Africa,ZAF,gobernanza_y_libertades,1.0,1.0,1.0,3,True,77.99,ok
+South Korea,KOR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,78.18,ok
+South Sudan,SSD,gobernanza_y_libertades,1.0,1.0,1.0,3,True,18.52,ok
+Spain,ESP,gobernanza_y_libertades,1.0,1.0,1.0,3,True,85.47,ok
+Sri Lanka,LKA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,49.72,ok
+Sudan,SDN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,18.73,ok
+Suriname,SUR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,71.21,ok
+Sweden,SWE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,95.85,ok
+Switzerland,CHE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,92.94,ok
+Syria,SYR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,9.53,ok
+Taiwan,TWN,gobernanza_y_libertades,0.75,1.0,0.75,2,True,84.85,ok
+Tajikistan,TJK,gobernanza_y_libertades,1.0,1.0,1.0,3,True,19.81,ok
+Tanzania,TZA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,40.76,ok
+Thailand,THA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,37.54,ok
+Timor-Leste,TLS,gobernanza_y_libertades,0.4,1.0,0.4,1,True,71.0,ok
+Togo,TGO,gobernanza_y_libertades,1.0,1.0,1.0,3,True,45.56,ok
+Tonga,TON,gobernanza_y_libertades,0.75,1.0,0.75,2,True,75.4,ok
+Trinidad and Tobago,TTO,gobernanza_y_libertades,1.0,1.0,1.0,3,True,77.25,ok
+Tunisia,TUN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,59.0,ok
+Turkey,TUR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,26.7,ok
+Turkmenistan,TKM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,9.84,ok
+Tuvalu,TUV,gobernanza_y_libertades,0.4,1.0,0.4,1,True,93.0,ok
+Uganda,UGA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,34.8,ok
+Ukraine,UKR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,58.4,ok
+United Arab Emirates,ARE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,32.25,ok
+United Kingdom,GBR,gobernanza_y_libertades,1.0,1.0,1.0,3,True,88.37,ok
+United States,USA,gobernanza_y_libertades,1.0,1.0,1.0,3,True,81.27,ok
+Uruguay,URY,gobernanza_y_libertades,1.0,1.0,1.0,3,True,86.54,ok
+Uzbekistan,UZB,gobernanza_y_libertades,1.0,1.0,1.0,3,True,22.89,ok
+Vanuatu,VUT,gobernanza_y_libertades,0.4,1.0,0.4,1,True,82.0,ok
+Vatican,VAT,gobernanza_y_libertades,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,gobernanza_y_libertades,1.0,1.0,1.0,3,True,19.35,ok
+Vietnam,VNM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,23.95,ok
+Yemen,YEM,gobernanza_y_libertades,1.0,1.0,1.0,3,True,15.87,ok
+Zambia,ZMB,gobernanza_y_libertades,1.0,1.0,1.0,3,True,50.09,ok
+Zimbabwe,ZWE,gobernanza_y_libertades,1.0,1.0,1.0,3,True,30.38,ok
+Afghanistan,AFG,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,71.07,ok
+Albania,ALB,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,75.05,ok
+Algeria,DZA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,60.38,ok
+Andorra,AND,medioambiente_y_sostenibilidad,0.65,1.0,0.65,3,True,78.29,ok
+Angola,AGO,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,74.93,ok
+Antigua and Barbuda,ATG,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Argentina,ARG,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,79.22,ok
+Armenia,ARM,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,77.07,ok
+Aruba,ABW,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,14.48,ok
+Australia,AUS,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,68.66,ok
+Austria,AUT,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,70.27,ok
+Azerbaijan,AZE,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,67.06,ok
+Bahamas,BHS,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,63.09,ok
+Bahrain,BHR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,23.3,ok
+Bangladesh,BGD,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,74.15,ok
+Barbados,BRB,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,67.54,ok
+Belarus,BLR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,79.22,ok
+Belgium,BEL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,67.91,ok
+Belize,BLZ,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,66.46,ok
+Benin,BEN,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,72.21,ok
+Bhutan,BTN,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,87.9,ok
+Bolivia,BOL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,79.72,ok
+Bosnia and Herzegovina,BIH,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,66.08,ok
+Bosnia-Herzegovina,BIH,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,80.57,ok
+Brazil,BRA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,80.57,ok
+Brunei,BRN,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,40.57,ok
+Bulgaria,BGR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,71.35,ok
+Burkina Faso,BFA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,76.15,ok
+Burundi,BDI,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,73.67,ok
+Cambodia,KHM,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,72.34,ok
+Cameroon,CMR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,72.87,ok
+Canada,CAN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,65.14,ok
+Cape Verde,CPV,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,85.84,ok
+Central African Republic,CAF,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,69.89,ok
+Chad,TCD,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,68.19,ok
+Chile,CHL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,69.03,ok
+China,CHN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,47.69,ok
+Colombia,COL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.15,ok
+Comoros,COM,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,82.07,ok
+Congo-Brazzaville,COG,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,74.5,ok
+Croatia,HRV,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.66,ok
+Cuba,CUB,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.39,ok
+Cyprus,CYP,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,67.5,ok
+Czechia,CZE,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,66.05,ok
+Côte d'Ivoire,CIV,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,84.08,ok
+Democratic Republic of the Congo,COD,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,65.62,ok
+Denmark,DNK,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,79.37,ok
+Djibouti,DJI,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,70.98,ok
+Dominica,DMA,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Dominican Republic,DOM,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,55.22,ok
+East Timor,TLS,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Ecuador,ECU,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,75.71,ok
+Egypt,EGY,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,66.35,ok
+El Salvador,SLV,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,57.56,ok
+Equatorial Guinea,GNQ,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,84.03,ok
+Eritrea,ERI,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,65.36,ok
+Estonia,EST,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,77.07,ok
+Eswatini,SWZ,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,78.45,ok
+Ethiopia,ETH,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,66.65,ok
+Fiji,FJI,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,80.34,ok
+Finland,FIN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,82.08,ok
+France,FRA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,72.92,ok
+Gabon,GAB,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,69.57,ok
+Gambia,GMB,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,46.04,ok
+Georgia,GEO,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,84.94,ok
+Germany,DEU,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,72.29,ok
+Ghana,GHA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,75.97,ok
+Greece,GRC,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,68.12,ok
+Grenada,GRD,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Guatemala,GTM,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,65.83,ok
+Guinea,GIN,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,74.81,ok
+Guinea-Bissau,GNB,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,48.52,ok
+Guyana,GUY,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,84.71,ok
+Haiti,HTI,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,52.29,ok
+Honduras,HND,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,72.93,ok
+Hong Kong,HKG,medioambiente_y_sostenibilidad,0.3,1.0,0.3,2,False,58.4,ok
+Hungary,HUN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,71.23,ok
+Iceland,ISL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,74.17,ok
+India,IND,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,42.81,ok
+Indonesia,IDN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,69.97,ok
+Iran,IRN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,54.31,ok
+Iraq,IRQ,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,51.4,ok
+Ireland,IRL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.11,ok
+Israel,ISR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,61.13,ok
+Italy,ITA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,68.99,ok
+Ivory Coast,CIV,medioambiente_y_sostenibilidad,0.35,1.0,0.35,1,True,68.8,ok
+Jamaica,JAM,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,56.57,ok
+Japan,JPN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,71.06,ok
+Jordan,JOR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,64.79,ok
+Kazakhstan,KAZ,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,59.33,ok
+Kenya,KEN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,67.7,ok
+Kiribati,KIR,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Kosovo,XKX,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Kuwait,KWT,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,24.25,ok
+Kyrgyzstan,KGZ,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,73.49,ok
+Laos,LAO,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,77.97,ok
+Latvia,LVA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,81.27,ok
+Lebanon,LBN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,63.0,ok
+Lesotho,LSO,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,62.17,ok
+Liberia,LBR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,76.3,ok
+Libya,LBY,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,59.75,ok
+Liechtenstein,LIE,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Lithuania,LTU,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,77.69,ok
+Luxembourg,LUX,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,65.91,ok
+Macao,MAC,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Madagascar,MDG,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,84.1,ok
+Malawi,MWI,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,77.84,ok
+Malaysia,MYS,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,58.46,ok
+Maldives,MDV,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,84.35,ok
+Mali,MLI,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,67.27,ok
+Malta,MLT,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.55,ok
+Marshall Islands,MHL,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Mauritania,MRT,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,42.56,ok
+Mauritius,MUS,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,73.89,ok
+Mexico,MEX,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,66.95,ok
+Micronesia,FSM,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Moldova,MDA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,75.09,ok
+Monaco,MCO,medioambiente_y_sostenibilidad,0.35,1.0,0.35,1,True,80.25,ok
+Mongolia,MNG,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,61.38,ok
+Montenegro,MNE,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,73.01,ok
+Morocco,MAR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,74.42,ok
+Morocco / Western Sahara,MAR,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,81.84,ok
+Myanmar,MMR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,82.89,ok
+Namibia,NAM,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,80.03,ok
+Nauru,NRU,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Nepal,NPL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,59.22,ok
+Netherlands,NLD,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.17,ok
+New Zealand,NZL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,79.9,ok
+Nicaragua,NIC,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,72.34,ok
+Niger,NER,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,69.06,ok
+Nigeria,NGA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,60.7,ok
+North Korea,PRK,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+North Macedonia,MKD,medioambiente_y_sostenibilidad,0.65,1.0,0.65,3,True,66.25,ok
+Northern Cyprus,CTU,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,75.93,ok
+OECS,CSS,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,28.35,ok
+Pakistan,PAK,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,43.77,ok
+Palau,PLW,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,76.72,ok
+Palestinian Territories,PSE,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,68.99,ok
+Papua New Guinea,PNG,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,85.15,ok
+Paraguay,PRY,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,78.03,ok
+Peru,PER,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,78.69,ok
+Philippines,PHL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,70.32,ok
+Poland,POL,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.36,ok
+Portugal,PRT,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,81.22,ok
+Puerto Rico,PRI,medioambiente_y_sostenibilidad,0.3,1.0,0.3,2,False,74.54,ok
+Qatar,QAT,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,24.87,ok
+Republic of the Congo,COG,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,70.42,ok
+Romania,ROU,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,71.82,ok
+Russia,RUS,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,69.24,ok
+Rwanda,RWA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,67.13,ok
+Saint Kitts and Nevis,KNA,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,55.02,ok
+Saint Lucia,LCA,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,65.08,ok
+Saint Vincent and the Grenadines,VCT,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Samoa,WSM,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+San Marino,SMR,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Sao Tome and Principe,STP,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,79.05,ok
+Saudi Arabia,SAU,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,23.28,ok
+Senegal,SEN,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,46.25,ok
+Serbia,SRB,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,66.89,ok
+Seychelles,SYC,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,87.79,ok
+Sierra Leone,SLE,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,78.21,ok
+Singapore,SGP,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,59.67,ok
+Slovakia,SVK,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,67.56,ok
+Slovenia,SVN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,64.89,ok
+Solomon Islands,SLB,medioambiente_y_sostenibilidad,0.5,1.0,0.5,2,True,99.43,ok
+Somalia,SOM,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,72.46,ok
+South Africa,ZAF,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,57.52,ok
+South Korea,KOR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,37.92,ok
+South Sudan,SSD,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,69.03,ok
+Spain,ESP,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,79.32,ok
+Sri Lanka,LKA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,77.29,ok
+Sudan,SDN,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,69.19,ok
+Suriname,SUR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,79.39,ok
+Sweden,SWE,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,83.51,ok
+Switzerland,CHE,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,75.32,ok
+Syria,SYR,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,70.89,ok
+Taiwan,TWN,medioambiente_y_sostenibilidad,0.3,1.0,0.3,2,False,42.09,ok
+Tajikistan,TJK,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,62.89,ok
+Tanzania,TZA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,76.25,ok
+Thailand,THA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,71.44,ok
+Timor-Leste,TLS,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Togo,TGO,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,77.44,ok
+Tonga,TON,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Trinidad and Tobago,TTO,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,48.15,ok
+Tunisia,TUN,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,74.89,ok
+Turkey,TUR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,71.64,ok
+Turkmenistan,TKM,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,41.8,ok
+Tuvalu,TUV,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Uganda,UGA,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,69.16,ok
+Ukraine,UKR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,73.62,ok
+United Arab Emirates,ARE,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,28.85,ok
+United Kingdom,GBR,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,78.23,ok
+United States,USA,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,60.05,ok
+Uruguay,URY,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,83.91,ok
+Uzbekistan,UZB,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,55.91,ok
+Vanuatu,VUT,medioambiente_y_sostenibilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Vatican,VAT,medioambiente_y_sostenibilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,medioambiente_y_sostenibilidad,0.65,1.0,0.65,3,True,67.77,ok
+Vietnam,VNM,medioambiente_y_sostenibilidad,1.0,1.0,1.0,4,True,64.36,ok
+Yemen,YEM,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,41.85,ok
+Zambia,ZMB,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,82.03,ok
+Zimbabwe,ZWE,medioambiente_y_sostenibilidad,0.85,1.0,0.85,3,True,79.89,ok
+Afghanistan,AFG,migracion_y_movilidad,1.0,1.0,1.0,3,True,5.8,ok
+Albania,ALB,migracion_y_movilidad,1.0,1.0,1.0,3,True,43.57,ok
+Algeria,DZA,migracion_y_movilidad,1.0,1.0,1.0,3,True,14.1,ok
+Andorra,AND,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.95,ok
+Angola,AGO,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.87,ok
+Antigua and Barbuda,ATG,migracion_y_movilidad,1.0,1.0,1.0,3,True,67.38,ok
+Argentina,ARG,migracion_y_movilidad,1.0,1.0,1.0,3,True,67.06,ok
+Armenia,ARM,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.33,ok
+Aruba,ABW,migracion_y_movilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Australia,AUS,migracion_y_movilidad,1.0,1.0,1.0,3,True,81.41,ok
+Austria,AUT,migracion_y_movilidad,1.0,1.0,1.0,3,True,82.01,ok
+Azerbaijan,AZE,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.66,ok
+Bahamas,BHS,migracion_y_movilidad,1.0,1.0,1.0,3,True,65.58,ok
+Bahrain,BHR,migracion_y_movilidad,1.0,1.0,1.0,3,True,42.76,ok
+Bangladesh,BGD,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.1,ok
+Barbados,BRB,migracion_y_movilidad,1.0,1.0,1.0,3,True,67.0,ok
+Belarus,BLR,migracion_y_movilidad,1.0,1.0,1.0,3,True,26.68,ok
+Belgium,BEL,migracion_y_movilidad,1.0,1.0,1.0,3,True,81.8,ok
+Belize,BLZ,migracion_y_movilidad,1.0,1.0,1.0,3,True,37.01,ok
+Benin,BEN,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.13,ok
+Bhutan,BTN,migracion_y_movilidad,1.0,1.0,1.0,3,True,12.37,ok
+Bolivia,BOL,migracion_y_movilidad,1.0,1.0,1.0,3,True,23.79,ok
+Bosnia and Herzegovina,BIH,migracion_y_movilidad,1.0,1.0,1.0,3,True,43.72,ok
+Bosnia-Herzegovina,BIH,migracion_y_movilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,migracion_y_movilidad,1.0,1.0,1.0,3,True,25.95,ok
+Brazil,BRA,migracion_y_movilidad,1.0,1.0,1.0,3,True,65.61,ok
+Brunei,BRN,migracion_y_movilidad,1.0,1.0,1.0,3,True,69.13,ok
+Bulgaria,BGR,migracion_y_movilidad,1.0,1.0,1.0,3,True,74.09,ok
+Burkina Faso,BFA,migracion_y_movilidad,1.0,1.0,1.0,3,True,15.25,ok
+Burundi,BDI,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.96,ok
+Cambodia,KHM,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.69,ok
+Cameroon,CMR,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.45,ok
+Canada,CAN,migracion_y_movilidad,1.0,1.0,1.0,3,True,78.12,ok
+Cape Verde,CPV,migracion_y_movilidad,1.0,1.0,1.0,3,True,18.36,ok
+Central African Republic,CAF,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.77,ok
+Chad,TCD,migracion_y_movilidad,1.0,1.0,1.0,3,True,12.19,ok
+Chile,CHL,migracion_y_movilidad,1.0,1.0,1.0,3,True,70.41,ok
+China,CHN,migracion_y_movilidad,1.0,1.0,1.0,3,True,25.56,ok
+Colombia,COL,migracion_y_movilidad,1.0,1.0,1.0,3,True,48.76,ok
+Comoros,COM,migracion_y_movilidad,1.0,1.0,1.0,3,True,11.77,ok
+Congo-Brazzaville,COG,migracion_y_movilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,migracion_y_movilidad,1.0,1.0,1.0,3,True,58.82,ok
+Croatia,HRV,migracion_y_movilidad,1.0,1.0,1.0,3,True,78.7,ok
+Cuba,CUB,migracion_y_movilidad,1.0,1.0,1.0,3,True,14.57,ok
+Cyprus,CYP,migracion_y_movilidad,1.0,1.0,1.0,3,True,76.22,ok
+Czechia,CZE,migracion_y_movilidad,1.0,1.0,1.0,3,True,77.06,ok
+Côte d'Ivoire,CIV,migracion_y_movilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,migracion_y_movilidad,1.0,1.0,1.0,3,True,8.02,ok
+Denmark,DNK,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.54,ok
+Djibouti,DJI,migracion_y_movilidad,1.0,1.0,1.0,3,True,12.55,ok
+Dominica,DMA,migracion_y_movilidad,1.0,1.0,1.0,3,True,58.25,ok
+Dominican Republic,DOM,migracion_y_movilidad,1.0,1.0,1.0,3,True,22.32,ok
+East Timor,TLS,migracion_y_movilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Ecuador,ECU,migracion_y_movilidad,1.0,1.0,1.0,3,True,31.17,ok
+Egypt,EGY,migracion_y_movilidad,1.0,1.0,1.0,3,True,11.35,ok
+El Salvador,SLV,migracion_y_movilidad,1.0,1.0,1.0,3,True,48.15,ok
+Equatorial Guinea,GNQ,migracion_y_movilidad,1.0,1.0,1.0,3,True,16.58,ok
+Eritrea,ERI,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.72,ok
+Estonia,EST,migracion_y_movilidad,1.0,1.0,1.0,3,True,79.24,ok
+Eswatini,SWZ,migracion_y_movilidad,0.4,1.0,0.4,2,False,19.17,ok
+Ethiopia,ETH,migracion_y_movilidad,1.0,1.0,1.0,3,True,8.33,ok
+Fiji,FJI,migracion_y_movilidad,1.0,1.0,1.0,3,True,28.4,ok
+Finland,FIN,migracion_y_movilidad,1.0,1.0,1.0,3,True,78.88,ok
+France,FRA,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.67,ok
+Gabon,GAB,migracion_y_movilidad,1.0,1.0,1.0,3,True,18.43,ok
+Gambia,GMB,migracion_y_movilidad,0.4,1.0,0.4,2,False,24.93,ok
+Georgia,GEO,migracion_y_movilidad,1.0,1.0,1.0,3,True,44.5,ok
+Germany,DEU,migracion_y_movilidad,1.0,1.0,1.0,3,True,82.26,ok
+Ghana,GHA,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.67,ok
+Greece,GRC,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.09,ok
+Grenada,GRD,migracion_y_movilidad,1.0,1.0,1.0,3,True,57.88,ok
+Guatemala,GTM,migracion_y_movilidad,1.0,1.0,1.0,3,True,48.76,ok
+Guinea,GIN,migracion_y_movilidad,1.0,1.0,1.0,3,True,13.06,ok
+Guinea-Bissau,GNB,migracion_y_movilidad,1.0,1.0,1.0,3,True,11.78,ok
+Guyana,GUY,migracion_y_movilidad,1.0,1.0,1.0,3,True,29.4,ok
+Haiti,HTI,migracion_y_movilidad,1.0,1.0,1.0,3,True,11.1,ok
+Honduras,HND,migracion_y_movilidad,1.0,1.0,1.0,3,True,47.05,ok
+Hong Kong,HKG,migracion_y_movilidad,0.4,1.0,0.4,2,False,55.75,ok
+Hungary,HUN,migracion_y_movilidad,1.0,1.0,1.0,3,True,77.85,ok
+Iceland,ISL,migracion_y_movilidad,1.0,1.0,1.0,3,True,79.25,ok
+India,IND,migracion_y_movilidad,1.0,1.0,1.0,3,True,14.49,ok
+Indonesia,IDN,migracion_y_movilidad,1.0,1.0,1.0,3,True,20.16,ok
+Iran,IRN,migracion_y_movilidad,1.0,1.0,1.0,3,True,7.57,ok
+Iraq,IRQ,migracion_y_movilidad,1.0,1.0,1.0,3,True,5.91,ok
+Ireland,IRL,migracion_y_movilidad,1.0,1.0,1.0,3,True,82.19,ok
+Israel,ISR,migracion_y_movilidad,1.0,1.0,1.0,3,True,70.02,ok
+Italy,ITA,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.02,ok
+Ivory Coast,CIV,migracion_y_movilidad,1.0,1.0,1.0,3,True,16.75,ok
+Jamaica,JAM,migracion_y_movilidad,1.0,1.0,1.0,3,True,27.11,ok
+Japan,JPN,migracion_y_movilidad,1.0,1.0,1.0,3,True,74.11,ok
+Jordan,JOR,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.86,ok
+Kazakhstan,KAZ,migracion_y_movilidad,1.0,1.0,1.0,3,True,29.17,ok
+Kenya,KEN,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.79,ok
+Kiribati,KIR,migracion_y_movilidad,1.0,1.0,1.0,3,True,44.82,ok
+Kosovo,XKX,migracion_y_movilidad,0.85,1.0,0.85,2,True,29.4,ok
+Kuwait,KWT,migracion_y_movilidad,1.0,1.0,1.0,3,True,47.46,ok
+Kyrgyzstan,KGZ,migracion_y_movilidad,1.0,1.0,1.0,3,True,16.65,ok
+Laos,LAO,migracion_y_movilidad,1.0,1.0,1.0,3,True,9.15,ok
+Latvia,LVA,migracion_y_movilidad,1.0,1.0,1.0,3,True,78.81,ok
+Lebanon,LBN,migracion_y_movilidad,1.0,1.0,1.0,3,True,14.94,ok
+Lesotho,LSO,migracion_y_movilidad,1.0,1.0,1.0,3,True,20.96,ok
+Liberia,LBR,migracion_y_movilidad,1.0,1.0,1.0,3,True,11.57,ok
+Libya,LBY,migracion_y_movilidad,1.0,1.0,1.0,3,True,9.36,ok
+Liechtenstein,LIE,migracion_y_movilidad,1.0,1.0,1.0,3,True,89.43,ok
+Lithuania,LTU,migracion_y_movilidad,1.0,1.0,1.0,3,True,76.12,ok
+Luxembourg,LUX,migracion_y_movilidad,1.0,1.0,1.0,3,True,90.06,ok
+Macao,MAC,migracion_y_movilidad,0.4,1.0,0.4,2,False,63.88,ok
+Madagascar,MDG,migracion_y_movilidad,1.0,1.0,1.0,3,True,13.18,ok
+Malawi,MWI,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.95,ok
+Malaysia,MYS,migracion_y_movilidad,1.0,1.0,1.0,3,True,75.6,ok
+Maldives,MDV,migracion_y_movilidad,1.0,1.0,1.0,3,True,33.03,ok
+Mali,MLI,migracion_y_movilidad,1.0,1.0,1.0,3,True,13.41,ok
+Malta,MLT,migracion_y_movilidad,1.0,1.0,1.0,3,True,83.11,ok
+Marshall Islands,MHL,migracion_y_movilidad,1.0,1.0,1.0,3,True,47.83,ok
+Mauritania,MRT,migracion_y_movilidad,1.0,1.0,1.0,3,True,14.45,ok
+Mauritius,MUS,migracion_y_movilidad,1.0,1.0,1.0,3,True,55.56,ok
+Mexico,MEX,migracion_y_movilidad,1.0,1.0,1.0,3,True,59.81,ok
+Micronesia,FSM,migracion_y_movilidad,1.0,1.0,1.0,3,True,49.46,ok
+Moldova,MDA,migracion_y_movilidad,1.0,1.0,1.0,3,True,43.42,ok
+Monaco,MCO,migracion_y_movilidad,1.0,1.0,1.0,3,True,84.65,ok
+Mongolia,MNG,migracion_y_movilidad,1.0,1.0,1.0,3,True,17.59,ok
+Montenegro,MNE,migracion_y_movilidad,1.0,1.0,1.0,3,True,49.11,ok
+Morocco,MAR,migracion_y_movilidad,1.0,1.0,1.0,3,True,21.04,ok
+Morocco / Western Sahara,MAR,migracion_y_movilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,migracion_y_movilidad,1.0,1.0,1.0,3,True,14.84,ok
+Myanmar,MMR,migracion_y_movilidad,1.0,1.0,1.0,3,True,7.81,ok
+Namibia,NAM,migracion_y_movilidad,1.0,1.0,1.0,3,True,23.13,ok
+Nauru,NRU,migracion_y_movilidad,1.0,1.0,1.0,3,True,32.42,ok
+Nepal,NPL,migracion_y_movilidad,1.0,1.0,1.0,3,True,7.22,ok
+Netherlands,NLD,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.87,ok
+New Zealand,NZL,migracion_y_movilidad,1.0,1.0,1.0,3,True,80.69,ok
+Nicaragua,NIC,migracion_y_movilidad,1.0,1.0,1.0,3,True,45.47,ok
+Niger,NER,migracion_y_movilidad,1.0,1.0,1.0,3,True,13.81,ok
+Nigeria,NGA,migracion_y_movilidad,1.0,1.0,1.0,3,True,8.76,ok
+North Korea,PRK,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.65,ok
+North Macedonia,MKD,migracion_y_movilidad,1.0,1.0,1.0,3,True,47.3,ok
+Northern Cyprus,CTU,migracion_y_movilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,migracion_y_movilidad,1.0,1.0,1.0,3,True,81.19,ok
+OECS,CSS,migracion_y_movilidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,migracion_y_movilidad,1.0,1.0,1.0,3,True,39.27,ok
+Pakistan,PAK,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.31,ok
+Palau,PLW,migracion_y_movilidad,0.4,1.0,0.4,2,False,45.16,ok
+Palestinian Territories,PSE,migracion_y_movilidad,0.4,1.0,0.4,2,False,18.22,ok
+Panama,PAN,migracion_y_movilidad,1.0,1.0,1.0,3,True,57.2,ok
+Papua New Guinea,PNG,migracion_y_movilidad,1.0,1.0,1.0,3,True,26.34,ok
+Paraguay,PRY,migracion_y_movilidad,1.0,1.0,1.0,3,True,54.75,ok
+Peru,PER,migracion_y_movilidad,1.0,1.0,1.0,3,True,54.4,ok
+Philippines,PHL,migracion_y_movilidad,1.0,1.0,1.0,3,True,17.91,ok
+Poland,POL,migracion_y_movilidad,1.0,1.0,1.0,3,True,76.77,ok
+Portugal,PRT,migracion_y_movilidad,1.0,1.0,1.0,3,True,79.23,ok
+Puerto Rico,PRI,migracion_y_movilidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Qatar,QAT,migracion_y_movilidad,1.0,1.0,1.0,3,True,53.41,ok
+Republic of the Congo,COG,migracion_y_movilidad,1.0,1.0,1.0,3,True,11.12,ok
+Romania,ROU,migracion_y_movilidad,1.0,1.0,1.0,3,True,74.33,ok
+Russia,RUS,migracion_y_movilidad,1.0,1.0,1.0,3,True,41.67,ok
+Rwanda,RWA,migracion_y_movilidad,1.0,1.0,1.0,3,True,19.38,ok
+Saint Kitts and Nevis,KNA,migracion_y_movilidad,0.4,1.0,0.4,2,False,40.15,ok
+Saint Lucia,LCA,migracion_y_movilidad,1.0,1.0,1.0,3,True,55.96,ok
+Saint Vincent and the Grenadines,VCT,migracion_y_movilidad,0.4,1.0,0.4,2,False,33.55,ok
+Samoa,WSM,migracion_y_movilidad,1.0,1.0,1.0,3,True,47.66,ok
+San Marino,SMR,migracion_y_movilidad,1.0,1.0,1.0,3,True,68.93,ok
+Sao Tome and Principe,STP,migracion_y_movilidad,1.0,1.0,1.0,3,True,15.09,ok
+Saudi Arabia,SAU,migracion_y_movilidad,1.0,1.0,1.0,3,True,38.68,ok
+Senegal,SEN,migracion_y_movilidad,1.0,1.0,1.0,3,True,15.04,ok
+Serbia,SRB,migracion_y_movilidad,1.0,1.0,1.0,3,True,52.5,ok
+Seychelles,SYC,migracion_y_movilidad,1.0,1.0,1.0,3,True,61.7,ok
+Sierra Leone,SLE,migracion_y_movilidad,1.0,1.0,1.0,3,True,16.76,ok
+Singapore,SGP,migracion_y_movilidad,1.0,1.0,1.0,3,True,85.33,ok
+Slovakia,SVK,migracion_y_movilidad,1.0,1.0,1.0,3,True,76.61,ok
+Slovenia,SVN,migracion_y_movilidad,1.0,1.0,1.0,3,True,78.97,ok
+Solomon Islands,SLB,migracion_y_movilidad,1.0,1.0,1.0,3,True,48.7,ok
+Somalia,SOM,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.01,ok
+South Africa,ZAF,migracion_y_movilidad,1.0,1.0,1.0,3,True,35.25,ok
+South Korea,KOR,migracion_y_movilidad,1.0,1.0,1.0,3,True,74.8,ok
+South Sudan,SSD,migracion_y_movilidad,1.0,1.0,1.0,3,True,9.03,ok
+Spain,ESP,migracion_y_movilidad,1.0,1.0,1.0,3,True,81.33,ok
+Sri Lanka,LKA,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.26,ok
+Sudan,SDN,migracion_y_movilidad,1.0,1.0,1.0,3,True,7.95,ok
+Suriname,SUR,migracion_y_movilidad,1.0,1.0,1.0,3,True,25.01,ok
+Sweden,SWE,migracion_y_movilidad,1.0,1.0,1.0,3,True,82.54,ok
+Switzerland,CHE,migracion_y_movilidad,1.0,1.0,1.0,3,True,84.95,ok
+Syria,SYR,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.77,ok
+Taiwan,TWN,migracion_y_movilidad,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Tajikistan,TJK,migracion_y_movilidad,1.0,1.0,1.0,3,True,13.71,ok
+Tanzania,TZA,migracion_y_movilidad,1.0,1.0,1.0,3,True,18.36,ok
+Thailand,THA,migracion_y_movilidad,1.0,1.0,1.0,3,True,24.52,ok
+Timor-Leste,TLS,migracion_y_movilidad,0.85,1.0,0.85,2,True,35.55,ok
+Togo,TGO,migracion_y_movilidad,1.0,1.0,1.0,3,True,15.71,ok
+Tonga,TON,migracion_y_movilidad,1.0,1.0,1.0,3,True,47.08,ok
+Trinidad and Tobago,TTO,migracion_y_movilidad,1.0,1.0,1.0,3,True,56.23,ok
+Tunisia,TUN,migracion_y_movilidad,1.0,1.0,1.0,3,True,18.82,ok
+Turkey,TUR,migracion_y_movilidad,1.0,1.0,1.0,3,True,41.75,ok
+Turkmenistan,TKM,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.31,ok
+Tuvalu,TUV,migracion_y_movilidad,1.0,1.0,1.0,3,True,46.14,ok
+Uganda,UGA,migracion_y_movilidad,1.0,1.0,1.0,3,True,18.63,ok
+Ukraine,UKR,migracion_y_movilidad,1.0,1.0,1.0,3,True,57.23,ok
+United Arab Emirates,ARE,migracion_y_movilidad,1.0,1.0,1.0,3,True,90.77,ok
+United Kingdom,GBR,migracion_y_movilidad,1.0,1.0,1.0,3,True,76.95,ok
+United States,USA,migracion_y_movilidad,1.0,1.0,1.0,3,True,75.21,ok
+Uruguay,URY,migracion_y_movilidad,1.0,1.0,1.0,3,True,60.47,ok
+Uzbekistan,UZB,migracion_y_movilidad,1.0,1.0,1.0,3,True,16.38,ok
+Vanuatu,VUT,migracion_y_movilidad,1.0,1.0,1.0,3,True,28.61,ok
+Vatican,VAT,migracion_y_movilidad,0.4,1.0,0.4,2,False,65.65,ok
+Venezuela,VEN,migracion_y_movilidad,1.0,1.0,1.0,3,True,42.71,ok
+Vietnam,VNM,migracion_y_movilidad,1.0,1.0,1.0,3,True,10.53,ok
+Yemen,YEM,migracion_y_movilidad,1.0,1.0,1.0,3,True,6.43,ok
+Zambia,ZMB,migracion_y_movilidad,1.0,1.0,1.0,3,True,17.01,ok
+Zimbabwe,ZWE,migracion_y_movilidad,1.0,1.0,1.0,3,True,16.17,ok
+Afghanistan,AFG,salud_publica,1.0,1.0,1.0,8,False,25.74,ok
+Albania,ALB,salud_publica,1.0,1.0,1.0,8,False,81.12,ok
+Algeria,DZA,salud_publica,1.0,1.0,1.0,8,False,72.97,ok
+Andorra,AND,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Angola,AGO,salud_publica,1.0,1.0,1.0,8,False,18.05,ok
+Antigua and Barbuda,ATG,salud_publica,1.0,1.0,1.0,8,False,81.42,ok
+Argentina,ARG,salud_publica,1.0,1.0,1.0,8,False,81.01,ok
+Armenia,ARM,salud_publica,1.0,1.0,1.0,8,False,78.43,ok
+Aruba,ABW,salud_publica,0.9,1.0,0.9,7,False,68.4,ok
+Australia,AUS,salud_publica,1.0,1.0,1.0,8,False,92.6,ok
+Austria,AUT,salud_publica,1.0,1.0,1.0,8,False,93.68,ok
+Azerbaijan,AZE,salud_publica,1.0,1.0,1.0,8,False,77.78,ok
+Bahamas,BHS,salud_publica,1.0,1.0,1.0,8,False,77.11,ok
+Bahrain,BHR,salud_publica,1.0,1.0,1.0,8,False,82.8,ok
+Bangladesh,BGD,salud_publica,1.0,1.0,1.0,8,False,47.33,ok
+Barbados,BRB,salud_publica,1.0,1.0,1.0,8,False,88.3,ok
+Belarus,BLR,salud_publica,1.0,1.0,1.0,8,False,86.83,ok
+Belgium,BEL,salud_publica,1.0,1.0,1.0,8,False,94.35,ok
+Belize,BLZ,salud_publica,1.0,1.0,1.0,8,False,71.25,ok
+Benin,BEN,salud_publica,1.0,1.0,1.0,8,False,19.71,ok
+Bhutan,BTN,salud_publica,1.0,1.0,1.0,8,False,59.88,ok
+Bolivia,BOL,salud_publica,1.0,1.0,1.0,8,False,56.99,ok
+Bosnia and Herzegovina,BIH,salud_publica,1.0,1.0,1.0,8,False,70.79,ok
+Bosnia-Herzegovina,BIH,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,salud_publica,1.0,1.0,1.0,8,False,48.23,ok
+Brazil,BRA,salud_publica,1.0,1.0,1.0,8,False,74.2,ok
+Brunei,BRN,salud_publica,1.0,1.0,1.0,8,False,80.61,ok
+Bulgaria,BGR,salud_publica,1.0,1.0,1.0,8,False,81.33,ok
+Burkina Faso,BFA,salud_publica,1.0,1.0,1.0,8,False,24.85,ok
+Burundi,BDI,salud_publica,1.0,1.0,1.0,8,False,30.81,ok
+Cambodia,KHM,salud_publica,1.0,1.0,1.0,8,False,43.67,ok
+Cameroon,CMR,salud_publica,1.0,1.0,1.0,8,False,21.68,ok
+Canada,CAN,salud_publica,1.0,1.0,1.0,8,False,88.64,ok
+Cape Verde,CPV,salud_publica,1.0,1.0,1.0,8,False,67.55,ok
+Central African Republic,CAF,salud_publica,1.0,1.0,1.0,8,False,4.12,ok
+Chad,TCD,salud_publica,1.0,1.0,1.0,8,False,8.78,ok
+Chile,CHL,salud_publica,1.0,1.0,1.0,8,False,84.05,ok
+China,CHN,salud_publica,1.0,1.0,1.0,8,False,78.17,ok
+Colombia,COL,salud_publica,1.0,1.0,1.0,8,False,76.43,ok
+Comoros,COM,salud_publica,1.0,1.0,1.0,8,False,35.15,ok
+Congo-Brazzaville,COG,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,salud_publica,1.0,1.0,1.0,8,False,82.43,ok
+Croatia,HRV,salud_publica,1.0,1.0,1.0,8,False,86.7,ok
+Cuba,CUB,salud_publica,1.0,1.0,1.0,8,False,86.9,ok
+Cyprus,CYP,salud_publica,1.0,1.0,1.0,8,False,89.49,ok
+Czechia,CZE,salud_publica,1.0,1.0,1.0,8,False,92.3,ok
+Côte d'Ivoire,CIV,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,salud_publica,1.0,1.0,1.0,8,False,7.96,ok
+Denmark,DNK,salud_publica,1.0,1.0,1.0,8,False,88.83,ok
+Djibouti,DJI,salud_publica,1.0,1.0,1.0,8,False,31.57,ok
+Dominica,DMA,salud_publica,0.9,1.0,0.9,7,False,76.76,ok
+Dominican Republic,DOM,salud_publica,1.0,1.0,1.0,8,False,65.39,ok
+East Timor,TLS,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Ecuador,ECU,salud_publica,1.0,1.0,1.0,8,False,73.81,ok
+Egypt,EGY,salud_publica,1.0,1.0,1.0,8,False,70.66,ok
+El Salvador,SLV,salud_publica,1.0,1.0,1.0,8,False,67.07,ok
+Equatorial Guinea,GNQ,salud_publica,1.0,1.0,1.0,8,False,16.97,ok
+Eritrea,ERI,salud_publica,1.0,1.0,1.0,8,False,35.67,ok
+Estonia,EST,salud_publica,1.0,1.0,1.0,8,False,87.48,ok
+Eswatini,SWZ,salud_publica,1.0,1.0,1.0,8,False,32.13,ok
+Ethiopia,ETH,salud_publica,1.0,1.0,1.0,8,False,26.58,ok
+Fiji,FJI,salud_publica,1.0,1.0,1.0,8,False,60.33,ok
+Finland,FIN,salud_publica,1.0,1.0,1.0,8,False,90.14,ok
+France,FRA,salud_publica,1.0,1.0,1.0,8,False,95.03,ok
+Gabon,GAB,salud_publica,1.0,1.0,1.0,8,False,40.19,ok
+Gambia,GMB,salud_publica,1.0,1.0,1.0,8,False,31.92,ok
+Georgia,GEO,salud_publica,1.0,1.0,1.0,8,False,72.82,ok
+Germany,DEU,salud_publica,1.0,1.0,1.0,8,False,94.61,ok
+Ghana,GHA,salud_publica,1.0,1.0,1.0,8,False,34.53,ok
+Greece,GRC,salud_publica,1.0,1.0,1.0,8,False,91.43,ok
+Grenada,GRD,salud_publica,1.0,1.0,1.0,8,False,75.21,ok
+Guatemala,GTM,salud_publica,1.0,1.0,1.0,8,False,56.98,ok
+Guinea,GIN,salud_publica,1.0,1.0,1.0,8,False,11.78,ok
+Guinea-Bissau,GNB,salud_publica,1.0,1.0,1.0,8,False,13.85,ok
+Guyana,GUY,salud_publica,1.0,1.0,1.0,8,False,62.94,ok
+Haiti,HTI,salud_publica,1.0,1.0,1.0,8,False,22.03,ok
+Honduras,HND,salud_publica,1.0,1.0,1.0,8,False,64.09,ok
+Hong Kong,HKG,salud_publica,0.9,1.0,0.9,7,False,74.41,ok
+Hungary,HUN,salud_publica,1.0,1.0,1.0,8,False,89.35,ok
+Iceland,ISL,salud_publica,1.0,1.0,1.0,8,False,90.04,ok
+India,IND,salud_publica,1.0,1.0,1.0,8,False,47.35,ok
+Indonesia,IDN,salud_publica,1.0,1.0,1.0,8,False,53.18,ok
+Iran,IRN,salud_publica,1.0,1.0,1.0,8,False,77.31,ok
+Iraq,IRQ,salud_publica,1.0,1.0,1.0,8,False,63.7,ok
+Ireland,IRL,salud_publica,1.0,1.0,1.0,8,False,88.57,ok
+Israel,ISR,salud_publica,1.0,1.0,1.0,8,False,91.43,ok
+Italy,ITA,salud_publica,1.0,1.0,1.0,8,False,91.14,ok
+Ivory Coast,CIV,salud_publica,1.0,1.0,1.0,8,False,21.2,ok
+Jamaica,JAM,salud_publica,1.0,1.0,1.0,8,False,72.67,ok
+Japan,JPN,salud_publica,1.0,1.0,1.0,8,False,97.75,ok
+Jordan,JOR,salud_publica,1.0,1.0,1.0,8,False,76.43,ok
+Kazakhstan,KAZ,salud_publica,1.0,1.0,1.0,8,False,82.4,ok
+Kenya,KEN,salud_publica,1.0,1.0,1.0,8,False,34.09,ok
+Kiribati,KIR,salud_publica,1.0,1.0,1.0,8,False,31.85,ok
+Kosovo,XKX,salud_publica,0.9,1.0,0.9,7,False,57.01,ok
+Kuwait,KWT,salud_publica,1.0,1.0,1.0,8,False,80.47,ok
+Kyrgyzstan,KGZ,salud_publica,1.0,1.0,1.0,8,False,71.27,ok
+Laos,LAO,salud_publica,1.0,1.0,1.0,8,False,35.99,ok
+Latvia,LVA,salud_publica,1.0,1.0,1.0,8,False,84.52,ok
+Lebanon,LBN,salud_publica,1.0,1.0,1.0,8,False,77.4,ok
+Lesotho,LSO,salud_publica,1.0,1.0,1.0,8,False,19.94,ok
+Liberia,LBR,salud_publica,1.0,1.0,1.0,8,False,17.31,ok
+Libya,LBY,salud_publica,1.0,1.0,1.0,8,False,71.73,ok
+Liechtenstein,LIE,salud_publica,0.9,1.0,0.9,7,False,73.08,ok
+Lithuania,LTU,salud_publica,1.0,1.0,1.0,8,False,85.34,ok
+Luxembourg,LUX,salud_publica,1.0,1.0,1.0,8,False,93.9,ok
+Macao,MAC,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Madagascar,MDG,salud_publica,1.0,1.0,1.0,8,False,24.22,ok
+Malawi,MWI,salud_publica,1.0,1.0,1.0,8,False,31.19,ok
+Malaysia,MYS,salud_publica,1.0,1.0,1.0,8,False,78.03,ok
+Maldives,MDV,salud_publica,1.0,1.0,1.0,8,False,82.53,ok
+Mali,MLI,salud_publica,1.0,1.0,1.0,8,False,19.14,ok
+Malta,MLT,salud_publica,1.0,1.0,1.0,8,False,92.67,ok
+Marshall Islands,MHL,salud_publica,0.9,1.0,0.9,7,False,36.83,ok
+Mauritania,MRT,salud_publica,1.0,1.0,1.0,8,False,33.23,ok
+Mauritius,MUS,salud_publica,1.0,1.0,1.0,8,False,77.21,ok
+Mexico,MEX,salud_publica,1.0,1.0,1.0,8,False,71.36,ok
+Micronesia,FSM,salud_publica,0.9,1.0,0.9,7,False,48.08,ok
+Moldova,MDA,salud_publica,1.0,1.0,1.0,8,False,73.45,ok
+Monaco,MCO,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Mongolia,MNG,salud_publica,1.0,1.0,1.0,8,False,59.78,ok
+Montenegro,MNE,salud_publica,1.0,1.0,1.0,8,False,77.89,ok
+Morocco,MAR,salud_publica,1.0,1.0,1.0,8,False,72.02,ok
+Morocco / Western Sahara,MAR,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,salud_publica,1.0,1.0,1.0,8,False,16.17,ok
+Myanmar,MMR,salud_publica,1.0,1.0,1.0,8,False,38.53,ok
+Namibia,NAM,salud_publica,1.0,1.0,1.0,8,False,35.74,ok
+Nauru,NRU,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Nepal,NPL,salud_publica,1.0,1.0,1.0,8,False,47.51,ok
+Netherlands,NLD,salud_publica,1.0,1.0,1.0,8,False,90.34,ok
+New Zealand,NZL,salud_publica,1.0,1.0,1.0,8,False,88.67,ok
+Nicaragua,NIC,salud_publica,1.0,1.0,1.0,8,False,66.01,ok
+Niger,NER,salud_publica,1.0,1.0,1.0,8,False,22.86,ok
+Nigeria,NGA,salud_publica,1.0,1.0,1.0,8,False,12.53,ok
+North Korea,PRK,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+North Macedonia,MKD,salud_publica,0.9,1.0,0.9,7,False,79.78,ok
+Northern Cyprus,CTU,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,salud_publica,1.0,1.0,1.0,8,False,92.49,ok
+OECS,CSS,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,salud_publica,1.0,1.0,1.0,8,False,81.08,ok
+Pakistan,PAK,salud_publica,1.0,1.0,1.0,8,False,31.34,ok
+Palau,PLW,salud_publica,0.9,1.0,0.9,7,False,68.57,ok
+Palestinian Territories,PSE,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,salud_publica,1.0,1.0,1.0,8,False,76.24,ok
+Papua New Guinea,PNG,salud_publica,1.0,1.0,1.0,8,False,20.52,ok
+Paraguay,PRY,salud_publica,1.0,1.0,1.0,8,False,66.98,ok
+Peru,PER,salud_publica,1.0,1.0,1.0,8,False,69.96,ok
+Philippines,PHL,salud_publica,1.0,1.0,1.0,8,False,43.03,ok
+Poland,POL,salud_publica,1.0,1.0,1.0,8,False,90.12,ok
+Portugal,PRT,salud_publica,1.0,1.0,1.0,8,False,89.91,ok
+Puerto Rico,PRI,salud_publica,0.9,1.0,0.9,7,False,73.28,ok
+Qatar,QAT,salud_publica,1.0,1.0,1.0,8,False,83.82,ok
+Republic of the Congo,COG,salud_publica,1.0,1.0,1.0,8,False,25.17,ok
+Romania,ROU,salud_publica,1.0,1.0,1.0,8,False,81.73,ok
+Russia,RUS,salud_publica,1.0,1.0,1.0,8,False,81.52,ok
+Rwanda,RWA,salud_publica,1.0,1.0,1.0,8,False,48.21,ok
+Saint Kitts and Nevis,KNA,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Lucia,LCA,salud_publica,1.0,1.0,1.0,8,False,73.73,ok
+Saint Vincent and the Grenadines,VCT,salud_publica,0.1,1.0,0.1,1,False,-1.0,insufficient_coverage
+Samoa,WSM,salud_publica,1.0,1.0,1.0,8,False,60.42,ok
+San Marino,SMR,salud_publica,0.9,1.0,0.9,7,False,91.2,ok
+Sao Tome and Principe,STP,salud_publica,1.0,1.0,1.0,8,False,51.48,ok
+Saudi Arabia,SAU,salud_publica,1.0,1.0,1.0,8,False,79.81,ok
+Senegal,SEN,salud_publica,1.0,1.0,1.0,8,False,43.06,ok
+Serbia,SRB,salud_publica,1.0,1.0,1.0,8,False,81.07,ok
+Seychelles,SYC,salud_publica,1.0,1.0,1.0,8,False,80.25,ok
+Sierra Leone,SLE,salud_publica,1.0,1.0,1.0,8,False,13.63,ok
+Singapore,SGP,salud_publica,1.0,1.0,1.0,8,False,89.92,ok
+Slovakia,SVK,salud_publica,1.0,1.0,1.0,8,False,88.22,ok
+Slovenia,SVN,salud_publica,1.0,1.0,1.0,8,False,90.91,ok
+Solomon Islands,SLB,salud_publica,1.0,1.0,1.0,8,False,49.24,ok
+Somalia,SOM,salud_publica,1.0,1.0,1.0,8,False,8.02,ok
+South Africa,ZAF,salud_publica,1.0,1.0,1.0,8,False,43.85,ok
+South Korea,KOR,salud_publica,1.0,1.0,1.0,8,False,96.69,ok
+South Sudan,SSD,salud_publica,1.0,1.0,1.0,8,False,10.73,ok
+Spain,ESP,salud_publica,1.0,1.0,1.0,8,False,91.07,ok
+Sri Lanka,LKA,salud_publica,1.0,1.0,1.0,8,False,73.54,ok
+Sudan,SDN,salud_publica,1.0,1.0,1.0,8,False,40.44,ok
+Suriname,SUR,salud_publica,1.0,1.0,1.0,8,False,67.29,ok
+Sweden,SWE,salud_publica,1.0,1.0,1.0,8,False,90.98,ok
+Switzerland,CHE,salud_publica,1.0,1.0,1.0,8,False,93.6,ok
+Syria,SYR,salud_publica,1.0,1.0,1.0,8,False,59.83,ok
+Taiwan,TWN,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Tajikistan,TJK,salud_publica,1.0,1.0,1.0,8,False,69.11,ok
+Tanzania,TZA,salud_publica,1.0,1.0,1.0,8,False,29.18,ok
+Thailand,THA,salud_publica,1.0,1.0,1.0,8,False,75.84,ok
+Timor-Leste,TLS,salud_publica,1.0,1.0,1.0,8,False,40.95,ok
+Togo,TGO,salud_publica,1.0,1.0,1.0,8,False,24.93,ok
+Tonga,TON,salud_publica,1.0,1.0,1.0,8,False,70.26,ok
+Trinidad and Tobago,TTO,salud_publica,1.0,1.0,1.0,8,False,75.81,ok
+Tunisia,TUN,salud_publica,1.0,1.0,1.0,8,False,76.27,ok
+Turkey,TUR,salud_publica,1.0,1.0,1.0,8,False,81.52,ok
+Turkmenistan,TKM,salud_publica,1.0,1.0,1.0,8,False,67.26,ok
+Tuvalu,TUV,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Uganda,UGA,salud_publica,1.0,1.0,1.0,8,False,28.5,ok
+Ukraine,UKR,salud_publica,1.0,1.0,1.0,8,False,70.86,ok
+United Arab Emirates,ARE,salud_publica,1.0,1.0,1.0,8,False,82.55,ok
+United Kingdom,GBR,salud_publica,1.0,1.0,1.0,8,False,88.42,ok
+United States,USA,salud_publica,1.0,1.0,1.0,8,False,85.81,ok
+Uruguay,URY,salud_publica,1.0,1.0,1.0,8,False,82.0,ok
+Uzbekistan,UZB,salud_publica,1.0,1.0,1.0,8,False,75.39,ok
+Vanuatu,VUT,salud_publica,1.0,1.0,1.0,8,False,50.5,ok
+Vatican,VAT,salud_publica,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,salud_publica,0.9,1.0,0.9,7,False,61.03,ok
+Vietnam,VNM,salud_publica,1.0,1.0,1.0,8,False,67.15,ok
+Yemen,YEM,salud_publica,1.0,1.0,1.0,8,False,37.19,ok
+Zambia,ZMB,salud_publica,1.0,1.0,1.0,8,False,27.79,ok
+Zimbabwe,ZWE,salud_publica,1.0,1.0,1.0,8,False,32.13,ok
+Afghanistan,AFG,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,16.16,ok
+Albania,ALB,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,59.8,ok
+Algeria,DZA,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,51.16,ok
+Andorra,AND,seguridad_y_criminalidad,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Angola,AGO,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Antigua and Barbuda,ATG,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Argentina,ARG,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,45.02,ok
+Armenia,ARM,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,77.45,ok
+Aruba,ABW,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Australia,AUS,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,62.97,ok
+Austria,AUT,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,79.91,ok
+Azerbaijan,AZE,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,68.4,ok
+Bahamas,BHS,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Bahrain,BHR,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Bangladesh,BGD,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,31.75,ok
+Barbados,BRB,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Belarus,BLR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,56.69,ok
+Belgium,BEL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,61.34,ok
+Belize,BLZ,seguridad_y_criminalidad,0.25,1.0,0.25,1,False,-1.0,insufficient_coverage
+Benin,BEN,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Bhutan,BTN,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Bolivia,BOL,seguridad_y_criminalidad,0.4,1.0,0.4,2,False,57.15,ok
+Bosnia and Herzegovina,BIH,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,64.99,ok
+Bosnia-Herzegovina,BIH,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Brazil,BRA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,34.33,ok
+Brunei,BRN,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Bulgaria,BGR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,65.43,ok
+Burkina Faso,BFA,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Burundi,BDI,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Cambodia,KHM,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,49.35,ok
+Cameroon,CMR,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Canada,CAN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,66.11,ok
+Cape Verde,CPV,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Central African Republic,CAF,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Chad,TCD,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Chile,CHL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,48.9,ok
+China,CHN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,67.29,ok
+Colombia,COL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,37.74,ok
+Comoros,COM,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Congo-Brazzaville,COG,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,54.5,ok
+Croatia,HRV,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,79.19,ok
+Cuba,CUB,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,67.96,ok
+Cyprus,CYP,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,72.8,ok
+Czechia,CZE,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,80.98,ok
+Côte d'Ivoire,CIV,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Denmark,DNK,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,83.07,ok
+Djibouti,DJI,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Dominica,DMA,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Dominican Republic,DOM,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,39.2,ok
+East Timor,TLS,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Ecuador,ECU,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,47.62,ok
+Egypt,EGY,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,50.26,ok
+El Salvador,SLV,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,37.14,ok
+Equatorial Guinea,GNQ,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Eritrea,ERI,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Estonia,EST,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,82.96,ok
+Eswatini,SWZ,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Ethiopia,ETH,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,41.65,ok
+Fiji,FJI,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Finland,FIN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,81.31,ok
+France,FRA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,56.66,ok
+Gabon,GAB,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Gambia,GMB,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Georgia,GEO,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Germany,DEU,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,67.97,ok
+Ghana,GHA,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Greece,GRC,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,58.18,ok
+Grenada,GRD,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Guatemala,GTM,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,41.33,ok
+Guinea,GIN,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Guinea-Bissau,GNB,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Guyana,GUY,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Haiti,HTI,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Honduras,HND,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,19.53,ok
+Hong Kong,HKG,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,84.86,ok
+Hungary,HUN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,72.13,ok
+Iceland,ISL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,82.36,ok
+India,IND,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,55.67,ok
+Indonesia,IDN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,57.52,ok
+Iran,IRN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,46.29,ok
+Iraq,IRQ,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,32.88,ok
+Ireland,IRL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,73.29,ok
+Israel,ISR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,64.33,ok
+Italy,ITA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,61.81,ok
+Ivory Coast,CIV,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Jamaica,JAM,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,35.14,ok
+Japan,JPN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,82.69,ok
+Jordan,JOR,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,60.31,ok
+Kazakhstan,KAZ,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,56.92,ok
+Kenya,KEN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,40.78,ok
+Kiribati,KIR,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Kosovo,XKX,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Kuwait,KWT,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,70.13,ok
+Kyrgyzstan,KGZ,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Laos,LAO,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Latvia,LVA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,68.83,ok
+Lebanon,LBN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,52.35,ok
+Lesotho,LSO,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Liberia,LBR,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Libya,LBY,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,30.0,ok
+Liechtenstein,LIE,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Lithuania,LTU,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,75.84,ok
+Luxembourg,LUX,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,79.35,ok
+Macao,MAC,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Madagascar,MDG,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Malawi,MWI,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Malaysia,MYS,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,50.38,ok
+Maldives,MDV,seguridad_y_criminalidad,0.6,1.0,0.6,1,True,37.4,ok
+Mali,MLI,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Malta,MLT,seguridad_y_criminalidad,0.4,1.0,0.4,2,False,88.94,ok
+Marshall Islands,MHL,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Mauritania,MRT,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Mauritius,MUS,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Mexico,MEX,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,43.33,ok
+Micronesia,FSM,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Moldova,MDA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,61.95,ok
+Monaco,MCO,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Mongolia,MNG,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,49.42,ok
+Montenegro,MNE,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Morocco,MAR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,59.67,ok
+Morocco / Western Sahara,MAR,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Myanmar,MMR,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Namibia,NAM,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,37.68,ok
+Nauru,NRU,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Nepal,NPL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,65.55,ok
+Netherlands,NLD,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,82.9,ok
+New Zealand,NZL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,63.98,ok
+Nicaragua,NIC,seguridad_y_criminalidad,0.4,1.0,0.4,2,False,61.01,ok
+Niger,NER,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Nigeria,NGA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,35.01,ok
+North Korea,PRK,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+North Macedonia,MKD,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,60.49,ok
+Northern Cyprus,CTU,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,78.1,ok
+OECS,CSS,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,79.86,ok
+Pakistan,PAK,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,46.71,ok
+Palau,PLW,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Palestinian Territories,PSE,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,59.86,ok
+Papua New Guinea,PNG,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,21.53,ok
+Paraguay,PRY,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,55.9,ok
+Peru,PER,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,37.68,ok
+Philippines,PHL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,49.29,ok
+Poland,POL,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,77.88,ok
+Portugal,PRT,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,72.12,ok
+Puerto Rico,PRI,seguridad_y_criminalidad,0.85,1.0,0.85,2,True,37.37,ok
+Qatar,QAT,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,88.69,ok
+Republic of the Congo,COG,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Romania,ROU,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,78.51,ok
+Russia,RUS,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,57.2,ok
+Rwanda,RWA,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Saint Kitts and Nevis,KNA,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Lucia,LCA,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Vincent and the Grenadines,VCT,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Samoa,WSM,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+San Marino,SMR,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Sao Tome and Principe,STP,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Saudi Arabia,SAU,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,68.57,ok
+Senegal,SEN,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Serbia,SRB,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,64.66,ok
+Seychelles,SYC,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Sierra Leone,SLE,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Singapore,SGP,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,82.41,ok
+Slovakia,SVK,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,76.96,ok
+Slovenia,SVN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,83.89,ok
+Solomon Islands,SLB,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Somalia,SOM,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+South Africa,ZAF,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,26.93,ok
+South Korea,KOR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,78.2,ok
+South Sudan,SSD,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Spain,ESP,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,74.48,ok
+Sri Lanka,LKA,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,49.97,ok
+Sudan,SDN,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Suriname,SUR,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Sweden,SWE,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,64.91,ok
+Switzerland,CHE,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,83.91,ok
+Syria,SYR,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,24.0,ok
+Taiwan,TWN,seguridad_y_criminalidad,0.85,1.0,0.85,2,True,87.99,ok
+Tajikistan,TJK,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Tanzania,TZA,seguridad_y_criminalidad,0.4,1.0,0.4,2,False,51.56,ok
+Thailand,THA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,57.45,ok
+Timor-Leste,TLS,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Togo,TGO,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Tonga,TON,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Trinidad and Tobago,TTO,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Tunisia,TUN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,55.7,ok
+Turkey,TUR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,60.87,ok
+Turkmenistan,TKM,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Tuvalu,TUV,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Uganda,UGA,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Ukraine,UKR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,52.43,ok
+United Arab Emirates,ARE,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,84.45,ok
+United Kingdom,GBR,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,66.02,ok
+United States,USA,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,50.25,ok
+Uruguay,URY,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,52.8,ok
+Uzbekistan,UZB,seguridad_y_criminalidad,0.4,1.0,0.4,2,False,82.25,ok
+Vanuatu,VUT,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Vatican,VAT,seguridad_y_criminalidad,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,23.61,ok
+Vietnam,VNM,seguridad_y_criminalidad,1.0,1.0,1.0,3,True,57.49,ok
+Yemen,YEM,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Zambia,ZMB,seguridad_y_criminalidad,0.15,1.0,0.15,1,False,-1.0,insufficient_coverage
+Zimbabwe,ZWE,seguridad_y_criminalidad,0.75,1.0,0.75,2,True,38.01,ok
+Afghanistan,AFG,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,100.0,ok
+Albania,ALB,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,50.16,ok
+Algeria,DZA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,91.58,ok
+Andorra,AND,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,62.88,ok
+Angola,AGO,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,100.0,ok
+Antigua and Barbuda,ATG,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,65.98,ok
+Argentina,ARG,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,69.34,ok
+Armenia,ARM,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,64.22,ok
+Aruba,ABW,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,54.31,ok
+Australia,AUS,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,60.74,ok
+Austria,AUT,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,56.49,ok
+Azerbaijan,AZE,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,73.77,ok
+Bahamas,BHS,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,68.48,ok
+Bahrain,BHR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,68.07,ok
+Bangladesh,BGD,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,95.24,ok
+Barbados,BRB,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,55.89,ok
+Belarus,BLR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,52.12,ok
+Belgium,BEL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,69.34,ok
+Belize,BLZ,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,68.77,ok
+Benin,BEN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,89.69,ok
+Bhutan,BTN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,78.56,ok
+Bolivia,BOL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,73.98,ok
+Bosnia and Herzegovina,BIH,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,66.51,ok
+Bosnia-Herzegovina,BIH,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Botswana,BWA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,77.65,ok
+Brazil,BRA,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,68.82,ok
+Brunei,BRN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,75.92,ok
+Bulgaria,BGR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,41.92,ok
+Burkina Faso,BFA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,82.56,ok
+Burundi,BDI,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,69.61,ok
+Cambodia,KHM,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,73.81,ok
+Cameroon,CMR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,86.21,ok
+Canada,CAN,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,66.39,ok
+Cape Verde,CPV,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,78.55,ok
+Central African Republic,CAF,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Chad,TCD,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,82.9,ok
+Chile,CHL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,65.53,ok
+China,CHN,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,48.14,ok
+Colombia,COL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,79.71,ok
+Comoros,COM,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Congo-Brazzaville,COG,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Costa Rica,CRI,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,77.14,ok
+Croatia,HRV,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,56.43,ok
+Cuba,CUB,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,96.58,ok
+Cyprus,CYP,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,76.94,ok
+Czechia,CZE,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,43.63,ok
+Côte d'Ivoire,CIV,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Democratic Republic of the Congo,COD,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Denmark,DNK,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,43.38,ok
+Djibouti,DJI,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,51.36,ok
+Dominica,DMA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,76.49,ok
+Dominican Republic,DOM,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,89.77,ok
+East Timor,TLS,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Ecuador,ECU,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,84.14,ok
+Egypt,EGY,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,86.93,ok
+El Salvador,SLV,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,79.4,ok
+Equatorial Guinea,GNQ,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,100.0,ok
+Eritrea,ERI,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Estonia,EST,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,47.81,ok
+Eswatini,SWZ,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,91.17,ok
+Ethiopia,ETH,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,98.07,ok
+Fiji,FJI,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,70.65,ok
+Finland,FIN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,34.82,ok
+France,FRA,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,57.71,ok
+Gabon,GAB,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,84.94,ok
+Gambia,GMB,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,100.0,ok
+Georgia,GEO,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,45.4,ok
+Germany,DEU,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,59.83,ok
+Ghana,GHA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,81.41,ok
+Greece,GRC,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,69.45,ok
+Grenada,GRD,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Guatemala,GTM,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,83.6,ok
+Guinea,GIN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,93.01,ok
+Guinea-Bissau,GNB,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Guyana,GUY,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,58.57,ok
+Haiti,HTI,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,90.84,ok
+Honduras,HND,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,88.94,ok
+Hong Kong,HKG,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,6.89,ok
+Hungary,HUN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,41.79,ok
+Iceland,ISL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,53.35,ok
+India,IND,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,59.18,ok
+Indonesia,IDN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,77.33,ok
+Iran,IRN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,76.59,ok
+Iraq,IRQ,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,80.14,ok
+Ireland,IRL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,65.94,ok
+Israel,ISR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,27.61,ok
+Italy,ITA,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,56.99,ok
+Ivory Coast,CIV,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,86.46,ok
+Jamaica,JAM,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,71.43,ok
+Japan,JPN,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,55.02,ok
+Jordan,JOR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,81.39,ok
+Kazakhstan,KAZ,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,58.26,ok
+Kenya,KEN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,88.59,ok
+Kiribati,KIR,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Kosovo,XKX,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Kuwait,KWT,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,43.15,ok
+Kyrgyzstan,KGZ,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,70.94,ok
+Laos,LAO,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,92.77,ok
+Latvia,LVA,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,40.94,ok
+Lebanon,LBN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,75.89,ok
+Lesotho,LSO,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,78.71,ok
+Liberia,LBR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,23.55,ok
+Libya,LBY,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,74.12,ok
+Liechtenstein,LIE,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,64.41,ok
+Lithuania,LTU,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,32.33,ok
+Luxembourg,LUX,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,46.89,ok
+Macao,MAC,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Madagascar,MDG,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,98.78,ok
+Malawi,MWI,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,100.0,ok
+Malaysia,MYS,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,78.7,ok
+Maldives,MDV,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,70.42,ok
+Mali,MLI,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,48.41,ok
+Malta,MLT,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,51.32,ok
+Marshall Islands,MHL,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,40.93,ok
+Mauritania,MRT,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,95.64,ok
+Mauritius,MUS,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,82.62,ok
+Mexico,MEX,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,73.4,ok
+Micronesia,FSM,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Moldova,MDA,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,43.62,ok
+Monaco,MCO,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,51.47,ok
+Mongolia,MNG,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,27.38,ok
+Montenegro,MNE,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,62.37,ok
+Morocco,MAR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,88.92,ok
+Morocco / Western Sahara,MAR,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Mozambique,MOZ,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,98.31,ok
+Myanmar,MMR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,90.68,ok
+Namibia,NAM,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,77.83,ok
+Nauru,NRU,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Nepal,NPL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,93.5,ok
+Netherlands,NLD,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,62.1,ok
+New Zealand,NZL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,59.63,ok
+Nicaragua,NIC,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,69.67,ok
+Niger,NER,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,0.0,ok
+Nigeria,NGA,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,85.62,ok
+North Korea,PRK,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+North Macedonia,MKD,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,72.25,ok
+Northern Cyprus,CTU,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Norway,NOR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,47.07,ok
+OECS,CSS,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Oman,OMN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,91.27,ok
+Pakistan,PAK,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,81.04,ok
+Palau,PLW,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Palestinian Territories,PSE,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Panama,PAN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,54.23,ok
+Papua New Guinea,PNG,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,73.79,ok
+Paraguay,PRY,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,74.69,ok
+Peru,PER,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,83.43,ok
+Philippines,PHL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,75.53,ok
+Poland,POL,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,42.97,ok
+Portugal,PRT,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,72.98,ok
+Puerto Rico,PRI,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,65.27,ok
+Qatar,QAT,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,65.91,ok
+Republic of the Congo,COG,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,89.97,ok
+Romania,ROU,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,34.41,ok
+Russia,RUS,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,26.58,ok
+Rwanda,RWA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,81.64,ok
+Saint Kitts and Nevis,KNA,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Saint Lucia,LCA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,75.42,ok
+Saint Vincent and the Grenadines,VCT,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Samoa,WSM,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,52.71,ok
+San Marino,SMR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,77.12,ok
+Sao Tome and Principe,STP,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Saudi Arabia,SAU,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,88.24,ok
+Senegal,SEN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,82.91,ok
+Serbia,SRB,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,68.66,ok
+Seychelles,SYC,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,93.82,ok
+Sierra Leone,SLE,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,89.75,ok
+Singapore,SGP,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,32.84,ok
+Slovakia,SVK,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,39.99,ok
+Slovenia,SVN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,65.34,ok
+Solomon Islands,SLB,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,100.0,ok
+Somalia,SOM,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,68.0,ok
+South Africa,ZAF,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,68.01,ok
+South Korea,KOR,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,34.67,ok
+South Sudan,SSD,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,96.41,ok
+Spain,ESP,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,70.92,ok
+Sri Lanka,LKA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,43.48,ok
+Sudan,SDN,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,95.31,ok
+Suriname,SUR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,53.92,ok
+Sweden,SWE,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,49.42,ok
+Switzerland,CHE,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,50.9,ok
+Syria,SYR,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,97.31,ok
+Taiwan,TWN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,49.07,ok
+Tajikistan,TJK,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,82.84,ok
+Tanzania,TZA,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,87.7,ok
+Thailand,THA,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,67.36,ok
+Timor-Leste,TLS,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,93.79,ok
+Togo,TGO,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,87.46,ok
+Tonga,TON,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Trinidad and Tobago,TTO,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Tunisia,TUN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,91.53,ok
+Turkey,TUR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,53.65,ok
+Turkmenistan,TKM,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,88.57,ok
+Tuvalu,TUV,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Uganda,UGA,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,96.24,ok
+Ukraine,UKR,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,35.37,ok
+United Arab Emirates,ARE,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,60.29,ok
+United Kingdom,GBR,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,56.67,ok
+United States,USA,vivienda_y_urbanismo,1.0,1.0,1.0,6,True,66.55,ok
+Uruguay,URY,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,69.49,ok
+Uzbekistan,UZB,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,69.52,ok
+Vanuatu,VUT,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,78.02,ok
+Vatican,VAT,vivienda_y_urbanismo,0.0,1.0,0.0,0,False,-1.0,no_data
+Venezuela,VEN,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,63.83,ok
+Vietnam,VNM,vivienda_y_urbanismo,0.8,1.0,0.8,3,True,41.62,ok
+Yemen,YEM,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,83.09,ok
+Zambia,ZMB,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,91.5,ok
+Zimbabwe,ZWE,vivienda_y_urbanismo,0.5,1.0,0.5,2,True,98.52,ok
