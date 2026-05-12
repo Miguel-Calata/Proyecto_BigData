@@ -1,13 +1,10 @@
-# Proyecto Big Data: Clustering con K-Means y Clustering Jerárquico
+# Proyecto Big Data: Análisis del Mejor Lugar para Vivir
 
-## Descripcion General
+## Descripción General
 
-Este proyecto educativo implementa y compara dos de los algoritmos de clustering más importantes del aprendizaje no supervisado:
+Proyecto de análisis de datos que combina ingeniería de datos, aprendizaje no supervisado y visualización geoespacial para responder una pregunta práctica: **¿cuál es el mejor país o ciudad para vivir?**
 
-- **K-Means** (agrupamiento por centroides)
-- **Clustering Jerárquico Aglomerativo**
-
-A través de notebooks interactivos en Python, se aplican ambos algoritmos a distintos conjuntos de datos reales para analizar patrones, segmentar poblaciones y extraer conocimiento útil sin necesidad de etiquetas previas.
+El proyecto integra múltiples fuentes de datos internacionales, construye índices compuestos de habitabilidad por país, aplica clustering con K-Means y Clustering Jerárquico, y genera mapas mundiales interactivos con los resultados.
 
 ---
 
@@ -17,244 +14,302 @@ A través de notebooks interactivos en Python, se aplican ambos algoritmos a dis
 Proyecto_BigData/
 ├── data/
 │   ├── customers_large_dataset.csv       # Dataset de clientes (10,000 registros)
-│   └── uaScoresDataFrame-csv-2.csv       # Dataset de ciudades del mundo (266 ciudades)
-├── Clase_16_Clustering_K_means_y_Jerárquico.ipynb   # Notebook educativo principal
-├── Clustering_k_means_mi_data.ipynb                 # Notebook con análisis propio
-├── .gitignore
+│   └── uaScoresDataFrame-csv-2.csv       # Puntuaciones de 266 ciudades del mundo
+├── projectData/
+│   ├── PRINCIPAL/                        # Datasets temáticos (excluidos del repo)
+│   │   ├── 01_calidad_de_vida_y_bienestar/
+│   │   ├── 02_economia_y_costo_de_vida/
+│   │   ├── 03_salud_publica/
+│   │   ├── 04_vivienda_y_urbanismo/
+│   │   ├── 05_medioambiente_y_sostenibilidad/
+│   │   ├── 06_seguridad_y_criminalidad/
+│   │   ├── 07_gobernanza_y_libertades/
+│   │   ├── 08_migracion_y_movilidad/
+│   │   └── 09_clima_y_desastres/
+│   ├── processed/                        # Salidas del pipeline de datos
+│   ├── download_datasets.py              # Descarga automática desde Kaggle
+│   ├── Gaps_y_Datos_Faltantes.md         # Diagnóstico de cobertura de datos
+│   └── INSTRUCCIONES_DESCARGA.md         # Guía de configuración Kaggle API
+├── scripts/
+│   └── build_country_indices.py          # Pipeline de construcción de índices por país
+├── Outputs/
+│   └── output.png
+├── Analisis_Mejor_Lugar_Para_Vivir.ipynb         # Análisis principal
+├── Clase_16_Clustering_K_means_y_Jerárquico.ipynb  # Notebook educativo
+├── Clustering_k_means_mi_data.ipynb              # Análisis de ciudades del mundo
+├── country_category_indices.csv          # Tabla de índices por país (208 países × 9 índices)
+├── ranking_paises_clusters.csv           # Resultado: país → cluster asignado
+├── mapa_clusters.html                    # Mapa mundial interactivo por cluster
+├── mapa_habitabilidad.html               # Mapa mundial con índice de habitabilidad
+├── mapa_interactivo.html                 # Mapa adicional interactivo
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## Contenido de los Notebooks
+## Notebooks
 
-### 1. `Clase_16_Clustering_K_means_y_Jerárquico.ipynb`
+### 1. `Analisis_Mejor_Lugar_Para_Vivir.ipynb` — Análisis Principal
 
-Notebook educativo con explicaciones teóricas y ejemplos prácticos:
+Análisis completo de habitabilidad a nivel país usando 9 índices temáticos construidos a partir de datos internacionales.
 
-- **K-Means sobre el dataset Olivetti Faces**
-  - Carga y preprocesamiento de 400 imágenes de rostros (64×64 píxeles)
-  - Reducción de dimensionalidad con PCA (100 componentes)
-  - Agrupamiento y visualización de clústeres
-  - Selección del número óptimo de clústeres con el método del codo y el coeficiente de silueta
+**Fuente de datos:** `country_category_indices.csv` — 208 países × 9 índices (escala 0–100)
 
-- **Clustering Jerárquico sobre datos de clientes de un shopping**
-  - Segmentación de clientes según ingreso anual y puntuación de gasto
-  - Generación e interpretación de dendrogramas
-  - Comparación con resultados de K-Means
+**Índices analizados:**
 
-**Conceptos clave cubiertos:**
-- Varianza intra-clúster e inter-clúster
-- Método del codo (Elbow Method) con detección automática mediante `KneeLocator`
-- Coeficiente de silueta (Silhouette Score)
-- Métodos de enlace en clustering jerárquico: `ward`, `complete`, `average`, `single`
+| Índice | Descripción |
+|--------|-------------|
+| Bienestar | Felicidad, prosperidad, calidad de vida subjetiva |
+| Economía | PIB per cápita, costo de vida, asequibilidad |
+| Salud | Esperanza de vida, mortalidad infantil, acceso sanitario |
+| Vivienda y urbanismo | Calidad habitacional, ratio asequibilidad, mercado inmobiliario |
+| Medio ambiente | Calidad del aire, emisiones, índices SDG |
+| Seguridad | Índice de crimen, seguridad percibida |
+| Gobernanza | Libertad política, libertad de prensa, estado de derecho |
+| Movilidad | Índice de pasaporte, facilidad de migración |
+| Clima | Confort climático, riesgo de desastres naturales |
+
+**Metodología:**
+- Exploración de distribuciones y matriz de correlaciones entre índices
+- Construcción de Índice Compuesto de Habitabilidad (promedio ponderado)
+- Imputación de valores faltantes con mediana, estandarización z-score
+- K-Means con k=4 (validado con método del codo y coeficiente de silueta)
+- Reducción dimensional con PCA para visualización
+- Mapas coropletos interactivos con Plotly
+
+**Hallazgos principales:**
+
+*Top 5 países (Índice Compuesto):*
+1. Luxemburgo — 79.3
+2. Dinamarca — 78.7
+3. Finlandia — 78.5
+4. Suiza — 78.2
+5. Noruega — 77.4
+
+*Clusters identificados (k=4):*
+
+| Cluster | Países | Score medio | Perfil |
+|---------|--------|-------------|--------|
+| Cluster 2 | 42 | 72.4 | Alto desarrollo (Europa occidental, Oceanía) |
+| Cluster 3 | 13 | 55.4 | Emergentes dinámicos (Corea del Sur, EAU, Qatar) |
+| Cluster 0 | 86 | 48.1 | Intermedios globales (México, Perú, Bhutan) |
+| Cluster 1 | 67 | 38.7 | Bajo desempeño (Yemen, Haití, Afganistán) |
+
+*Patrones geográficos:* Europa concentra el 74.4% del Cluster 2; África concentra el 85.2% del Cluster 1. Asia presenta la mayor diversidad, distribuida en todos los clusters.
 
 ---
 
-### 2. `Clustering_k_means_mi_data.ipynb`
+### 2. `Clustering_k_means_mi_data.ipynb` — Análisis de Ciudades
 
-Notebook de aplicación propia con análisis avanzado:
+K-Means y Clustering Jerárquico sobre 266 ciudades del mundo con 17 métricas de calidad urbana.
 
-- **K-Means sobre datos de áreas urbanas del mundo**
-  - Análisis de 266 ciudades con 17 métricas de calidad de vida
-  - Preprocesamiento: estandarización z-score + PCA (10 componentes)
-  - Identificación de grupos de ciudades con características similares
-  - Interpretación de los clústeres resultantes
+**Preprocesamiento:** estandarización + PCA (10 componentes, 91.45% de varianza explicada)
 
-- **Clustering Jerárquico sobre el mismo dataset**
-  - Comparación de resultados entre ambos métodos
-  - Análisis de la estabilidad de los grupos obtenidos
+**Resultado con k=6 clusters:**
+
+| Cluster | Ciudades representativas | Perfil |
+|---------|--------------------------|--------|
+| 0 | Almaty, El Cairo, Karachi | Vivienda cara, bajo desarrollo |
+| 1 | Bali, La Habana, Portland | Seguras y tolerantes, aisladas |
+| 2 | Copenhague, Berlín, Auckland | Economías desarrolladas de primer mundo |
+| 3 | Nueva York, Dubai, Boston | Hubs tecnológicos y financieros, alto costo |
+| 4 | Atlanta, Phoenix, Charlotte | Ciudades estadounidenses de clase media |
+| 5 | Barcelona, Estambul, Bangkok | Hubs globales con buen balance calidad/costo |
+
+---
+
+### 3. `Clase_16_Clustering_K_means_y_Jerárquico.ipynb` — Notebook Educativo
+
+Introducción teórico-práctica a los algoritmos de clustering.
+
+**Contenidos:**
+- K-Means sobre el dataset Olivetti Faces (400 imágenes, PCA a 100 componentes)
+- Elección de k óptimo: método del codo con `KneeLocator` y coeficiente de silueta
+- Clustering Jerárquico sobre datos de clientes de shopping (dendrograma, método Ward)
+- Comparación entre ambos algoritmos
+
+---
+
+## Pipeline de Datos
+
+El proyecto incluye un pipeline reproducible para construir los índices a nivel país desde cero.
+
+### `projectData/download_datasets.py`
+
+Descarga automática de 8 datasets desde Kaggle API y los organiza en carpetas temáticas:
+
+```bash
+cd projectData
+python download_datasets.py
+```
+
+Requiere credenciales configuradas en `~/.kaggle/kaggle.json`. Ver `INSTRUCCIONES_DESCARGA.md`.
+
+### `scripts/build_country_indices.py`
+
+Construye `country_category_indices.csv` a partir de los datasets en `projectData/PRINCIPAL/`:
+
+```bash
+python scripts/build_country_indices.py
+```
+
+**Proceso interno:**
+1. Normalización de nombres de país (maneja variaciones ortográficas y abreviaciones)
+2. Extracción de variables por categoría, normalización a escala 0–100 (winsorized minmax)
+3. Ponderación de variables primarias vs. secundarias
+4. Filtro de cobertura: país incluido solo si tiene ≥30% cobertura en la categoría o fuente primaria
+
+**Salidas en `projectData/processed/`:**
+- `country_category_indices.csv` — tabla de índices final
+- `audit_variable_scores.csv` — desglose de cada variable y su score
+- `audit_category_coverage.csv` — auditoría de completitud
+- `unmatched_country_names.csv` — países sin mapeo exitoso
 
 ---
 
 ## Datasets
 
-### Dataset 1: Clientes de Shopping (`customers_large_dataset.csv`)
+### `data/customers_large_dataset.csv`
 
-| Columna | Descripcion |
-|---|---|
-| `CustomerID` | Identificador único del cliente |
-| `Genre` | Género (Male / Female) |
-| `Age` | Edad del cliente |
-| `Annual Income (k$)` | Ingreso anual en miles de dólares |
-| `Spending Score (1-100)` | Puntuación de gasto (1 = poco, 100 = mucho) |
+10,000 registros de clientes con: `CustomerID`, `Genre`, `Age`, `Annual Income (k$)`, `Spending Score (1-100)`.
+Usado en el notebook educativo para segmentación de clientes.
 
-- **Registros:** 10,000 clientes
-- **Caso de uso:** Segmentación de clientes para estrategias de marketing personalizadas
+### `data/uaScoresDataFrame-csv-2.csv`
 
----
+266 ciudades del mundo con 17 métricas de calidad urbana (escala 0–10): Housing, Cost of Living, Startups, Venture Capital, Travel Connectivity, Commute, Business Freedom, Safety, Healthcare, Education, Environmental Quality, Economy, Taxation, Internet Access, Leisure & Culture, Tolerance, Outdoors.
 
-### Dataset 2: Áreas Urbanas del Mundo (`uaScoresDataFrame-csv-2.csv`)
+### `country_category_indices.csv` (generado)
 
-Contiene puntuaciones (escala 0–10) para 266 ciudades del mundo en 17 dimensiones:
+208 países × 9 índices temáticos (escala 0–100). Entrada principal del análisis de habitabilidad. Generado por `scripts/build_country_indices.py`.
 
-| Métrica | Descripcion |
-|---|---|
-| `Housing` | Calidad y disponibilidad de vivienda |
-| `Cost of Living` | Índice de costo de vida general |
-| `Startups` | Ecosistema emprendedor |
-| `Venture Capital` | Acceso a capital de inversión |
-| `Travel Connectivity` | Conectividad internacional |
-| `Commute` | Calidad del transporte y movilidad urbana |
-| `Business Freedom` | Libertad regulatoria para negocios |
-| `Safety` | Seguridad y tasas de criminalidad |
-| `Healthcare` | Calidad de los servicios de salud |
-| `Education` | Calidad del sistema educativo |
-| `Environmental Quality` | Calidad ambiental (aire, agua, verde urbano) |
-| `Economy` | Estabilidad económica |
-| `Taxation` | Nivel de carga impositiva |
-| `Internet Access` | Disponibilidad de banda ancha |
-| `Leisure & Culture` | Actividades culturales y de ocio |
-| `Tolerance` | Tolerancia y diversidad social |
-| `Outdoors` | Espacios verdes y actividades al aire libre |
+### Olivetti Faces (desde scikit-learn)
 
-- **Registros:** 266 ciudades
-- **Metadatos adicionales:** nombre de ciudad, país, continente
-- **Caso de uso:** Análisis comparativo de ciudades para planificación urbana o decisiones de reubicación
+400 imágenes en escala de grises de 40 personas (64×64 px). Cargado directamente con `sklearn.datasets.fetch_olivetti_faces`.
 
 ---
 
-### Dataset 3: Olivetti Faces (desde `sklearn`)
+## Resultados Generados
 
-- **Fuente:** `sklearn.datasets.fetch_olivetti_faces`
-- **Registros:** 400 imágenes (10 fotos × 40 personas distintas)
-- **Formato:** Imágenes en escala de grises de 64×64 píxeles (4,096 características por imagen)
-- **Caso de uso:** Clustering de alta dimensionalidad para identificación de personas
+| Archivo | Descripción |
+|---------|-------------|
+| `ranking_paises_clusters.csv` | Tabla país → cluster asignado + score de habitabilidad |
+| `mapa_clusters.html` | Mapa mundial interactivo coloreado por cluster |
+| `mapa_habitabilidad.html` | Mapa mundial con gradiente por Índice Compuesto (0–100) |
+| `mapa_interactivo.html` | Mapa adicional interactivo |
+
+Los archivos `.html` se pueden abrir directamente en cualquier navegador web.
 
 ---
 
 ## Tecnologías y Librerías
 
 | Herramienta | Uso |
-|---|---|
-| **Python 3.x** | Lenguaje principal |
-| **Jupyter Notebook** | Entorno de desarrollo interactivo |
+|-------------|-----|
+| **Python 3.8+** | Lenguaje principal |
+| **Jupyter Notebook** | Entorno de análisis interactivo |
+| **Pandas** | Manipulación de datos tabulares |
 | **NumPy** | Operaciones numéricas y matriciales |
-| **Pandas** | Carga y manipulación de datos tabulares |
-| **Matplotlib** | Visualización de datos y gráficos |
-| **Scikit-learn** | Algoritmos de clustering, PCA, métricas |
-| **SciPy** | Dendrogramas y clustering jerárquico avanzado |
+| **Scikit-learn** | KMeans, PCA, Silhouette, StandardScaler |
+| **SciPy** | Clustering jerárquico, dendrogramas |
+| **Matplotlib / Seaborn** | Visualizaciones estáticas |
+| **Plotly** | Mapas coropletos interactivos |
 | **Kneed** | Detección automática del punto de codo |
+| **pycountry_convert** | Mapeo ISO3 → continente |
+| **openpyxl** | Lectura de archivos Excel |
+| **Kaggle API** | Descarga de datasets |
 
 ---
 
-## Instalacion y Uso
+## Instalación y Uso
 
 ### Requisitos previos
 
 - Python 3.8 o superior
 - pip
 
-### Instalacion de dependencias
+### Instalación de dependencias
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn scipy kneed jupyter
+pip install -r requirements.txt
 ```
 
-### Ejecucion
+O manualmente:
 
 ```bash
-# Clonar el repositorio
+pip install pandas numpy matplotlib seaborn scikit-learn scipy kneed plotly pycountry-convert openpyxl jupyter ipykernel
+```
+
+### Uso rápido (con datos ya generados)
+
+```bash
 git clone <url-del-repositorio>
 cd Proyecto_BigData
-
-# Iniciar Jupyter Notebook
 jupyter notebook
 ```
 
-Luego abrir desde el navegador el notebook deseado:
-- `Clase_16_Clustering_K_means_y_Jerárquico.ipynb` para la clase educativa
-- `Clustering_k_means_mi_data.ipynb` para el análisis con datos propios
+Abrir `Analisis_Mejor_Lugar_Para_Vivir.ipynb` — los archivos `country_category_indices.csv` y `ranking_paises_clusters.csv` ya están incluidos en el repositorio.
+
+### Reproducción completa del pipeline
+
+```bash
+# 1. Configurar Kaggle API (ver projectData/INSTRUCCIONES_DESCARGA.md)
+# 2. Descargar datasets
+python projectData/download_datasets.py
+
+# 3. Construir índices por país
+python scripts/build_country_indices.py
+
+# 4. Ejecutar el análisis
+jupyter notebook Analisis_Mejor_Lugar_Para_Vivir.ipynb
+```
 
 ---
 
 ## Flujo de Trabajo
 
 ```
-1. Carga y Exploracion de Datos
+Datasets internacionales (Kaggle, ONU, World Bank)
         ↓
-2. Preprocesamiento
-   - Estandarizacion (z-score)
-   - Reduccion de dimensionalidad (PCA)
+download_datasets.py  →  projectData/PRINCIPAL/ (9 carpetas temáticas)
         ↓
-3. Visualizacion Exploratoria
-   - Scatter plots en espacio PCA
+build_country_indices.py  →  country_category_indices.csv (208 países × 9 índices)
         ↓
-4. Aplicacion de Clustering
-   - K-Means
-   - Clustering Jerarquico
+Analisis_Mejor_Lugar_Para_Vivir.ipynb
+  ├── EDA: distribuciones, correlaciones, valores faltantes
+  ├── Índice Compuesto de Habitabilidad
+  ├── Preprocesamiento: imputación + z-score
+  ├── K-Means (k=4, validado con Elbow + Silhouette)
+  ├── PCA 2D para visualización
+  └── Mapas mundiales interactivos (Plotly)
         ↓
-5. Seleccion del Numero Optimo de Clusters (k)
-   - Metodo del Codo
-   - Coeficiente de Silueta
-   - Inspeccion del Dendrograma
-        ↓
-6. Interpretacion y Analisis de Resultados
-   - Estadisticas por cluster
-   - Identificacion de patrones
+ranking_paises_clusters.csv + mapa_clusters.html + mapa_habitabilidad.html
 ```
 
 ---
 
-## Conceptos Teoricos Clave
+## Conceptos Teóricos
 
 ### K-Means
 
-Algoritmo iterativo que asigna cada punto al centroide más cercano y actualiza los centroides hasta convergencia. Minimiza la **varianza intra-clúster (SSE/Inertia)**.
+Asigna cada punto al centroide más cercano e itera hasta convergencia. Minimiza la varianza intra-clúster (SSE/Inercia).
 
-**Ventajas:**
-- Rápido y escalable a grandes datasets
-- Fácil de interpretar mediante centroides
-- Determinista con semilla fija (`random_state`)
-
-**Limitaciones:**
-- Requiere especificar `k` de antemano
-- Sensible a la inicialización y a valores atípicos
-- Asume clústeres de forma esférica
-
----
+- **Ventajas:** eficiente y escalable, centroides interpretables
+- **Limitaciones:** requiere k conocido de antemano, sensible a outliers y forma esférica de clusters
 
 ### Clustering Jerárquico Aglomerativo
 
-Construye una jerarquía de clústeres fusionando pares de grupos similares de abajo hacia arriba. El resultado se visualiza como un **dendrograma**.
+Construye una jerarquía de clusters fusionando pares de forma ascendente. Visualizado mediante dendrograma.
 
-**Ventajas:**
-- No requiere especificar `k` con anticipación
-- Produce una jerarquía interpretable
-- Captura estructuras a múltiples escalas
+- **Ventajas:** no requiere k de antemano, estructura jerárquica interpretable
+- **Limitaciones:** O(n²) en memoria y tiempo, no apto para datasets muy grandes
 
-**Limitaciones:**
-- Mayor costo computacional O(n²)
-- No apto para datasets muy grandes sin optimizaciones
+### Métricas de Evaluación
 
----
-
-### Métricas de Evaluacion
-
-| Métrica | Descripcion | Valor ideal |
-|---|---|---|
+| Métrica | Descripción | Valor ideal |
+|---------|-------------|-------------|
 | **Inertia (SSE)** | Suma de distancias al cuadrado a los centroides | Minimizar |
-| **Silhouette Score** | Cohesión intra-clúster vs. separación inter-clúster | Maximizar (rango: -1 a 1) |
-
----
-
-## Ejercicios Propuestos
-
-Los notebooks incluyen ejercicios para reforzar los conceptos:
-
-1. Aplicar K-Means con diferentes valores de `k` y comparar la inercia
-2. Probar distintos métodos de enlace (`ward`, `complete`, `average`) en el clustering jerárquico
-3. Evaluar el impacto del número de componentes PCA en los resultados del clustering
-4. Identificar y analizar las características de cada clúster resultante
-5. Comparar los resultados de ambos algoritmos sobre el mismo dataset
-
----
-
-## Resultados Destacados
-
-- La segmentacion de clientes del shopping permite identificar grupos con comportamientos de gasto diferenciados, facilitando estrategias de marketing personalizadas.
-- El análisis de ciudades del mundo revela agrupaciones coherentes por región geográfica y nivel de desarrollo, con ciudades de características similares agrupadas independientemente del continente.
-- El dataset Olivetti Faces demuestra la capacidad de K-Means para agrupar imágenes en alta dimensionalidad tras aplicar PCA.
+| **Silhouette Score** | Cohesión intra-clúster vs. separación inter-clúster | Maximizar (–1 a 1) |
 
 ---
 
@@ -266,4 +321,4 @@ Proyecto desarrollado como parte de un curso de Big Data y Machine Learning.
 
 ## Licencia
 
-Este proyecto es de uso educativo. Los datasets utilizados son de dominio público o para fines académicos.
+Uso educativo. Los datasets incluidos son de dominio público o de uso académico.
