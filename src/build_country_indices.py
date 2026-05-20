@@ -4,10 +4,10 @@ Build a reproducible country-level index table for the "mejor lugar para vivir"
 project.
 
 Outputs:
-  - projectData/processed/country_category_indices.csv
-  - projectData/processed/audit_variable_scores.csv
-  - projectData/processed/audit_category_coverage.csv
-  - projectData/processed/unmatched_country_names.csv
+  - outputs/country_category_indices.csv
+  - outputs/audit_variable_scores.csv
+  - outputs/audit_category_coverage.csv
+  - outputs/unmatched_country_names.csv
 """
 
 from __future__ import annotations
@@ -24,8 +24,8 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PRINCIPAL = PROJECT_ROOT / "projectData" / "PRINCIPAL"
-OUTPUT_DIR = PROJECT_ROOT / "projectData" / "processed"
+PRINCIPAL = PROJECT_ROOT / "data_external"
+OUTPUT_DIR = PROJECT_ROOT / "outputs"
 ALIASES_PATH = Path(__file__).resolve().with_name("country_aliases.json")
 
 CATEGORY_COLUMNS = [

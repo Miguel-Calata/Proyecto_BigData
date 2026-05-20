@@ -29,60 +29,61 @@ import json
 #  CONFIGURACIÓN DE DESTINO
 # ─────────────────────────────────────────────
 
-# Detectar automáticamente la carpeta del proyecto (donde está este script)
+# Raíz del proyecto = un nivel arriba de scripts/
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE = SCRIPT_DIR
-TEMP = os.path.join(BASE, "_temp_downloads")
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+BASE = os.path.join(PROJECT_ROOT, "data_external")
+TEMP = os.path.join(PROJECT_ROOT, "_temp_downloads")
 
 # Mapeo: dataset Kaggle → carpeta destino
 DATASETS = [
     # ── PRIORIDAD ALTA ──────────────────────────────────────────────────────────
     {
         "kaggle_id":   "arsalanrehman/world-crime-index-2023",
-        "destino":     "PRINCIPAL/06_seguridad_y_criminalidad/world-crime-index-2023",
+        "destino":     "06_seguridad_y_criminalidad/world-crime-index-2023",
         "descripcion": "World Crime Index 2023 (Numbeo)",
         "prioridad":   "🔴 ALTA"
     },
     {
         "kaggle_id":   "sudalairajkumar/daily-temperature-of-major-cities",
-        "destino":     "PRINCIPAL/09_clima_y_desastres/daily-temperature-major-cities",
+        "destino":     "09_clima_y_desastres/daily-temperature-major-cities",
         "descripcion": "Temperatura diaria de ciudades principales",
         "prioridad":   "🔴 ALTA"
     },
     {
         "kaggle_id":   "adityaramachandran27/world-air-quality-index-by-city-and-coordinates",
-        "destino":     "PRINCIPAL/05_medioambiente_y_sostenibilidad/world-air-quality-index",
+        "destino":     "05_medioambiente_y_sostenibilidad/world-air-quality-index",
         "descripcion": "World Air Quality Index por ciudad (AQI, PM2.5, NO2, CO)",
         "prioridad":   "🔴 ALTA"
     },
     {
         "kaggle_id":   "tr1gg3rtrash/global-disaster-risk-index-time-series-dataset",
-        "destino":     "PRINCIPAL/09_clima_y_desastres/global-disaster-risk-index",
+        "destino":     "09_clima_y_desastres/global-disaster-risk-index",
         "descripcion": "Índice Global de Riesgo de Desastres Naturales",
         "prioridad":   "🔴 ALTA"
     },
     # ── PRIORIDAD MEDIA ─────────────────────────────────────────────────────────
     {
         "kaggle_id":   "jainaru/world-happiness-report-2024-yearly-updated",
-        "destino":     "PRINCIPAL/01_calidad_de_vida_y_bienestar/world-happiness-2024",
+        "destino":     "01_calidad_de_vida_y_bienestar/world-happiness-2024",
         "descripcion": "World Happiness Report 2024 (reemplaza datos hasta 2019)",
         "prioridad":   "🟡 MEDIA"
     },
     {
         "kaggle_id":   "yajuvendrasinh/press-freedom-index-2014-to-2023",
-        "destino":     "PRINCIPAL/07_gobernanza_y_libertades/press-freedom-index",
+        "destino":     "07_gobernanza_y_libertades/press-freedom-index",
         "descripcion": "Press Freedom Index 2014–2023 (RSF)",
         "prioridad":   "🟡 MEDIA"
     },
     {
         "kaggle_id":   "joebeachcapital/henley-passport-index-dataset",
-        "destino":     "PRINCIPAL/08_migracion_y_movilidad/henley-passport-index",
+        "destino":     "08_migracion_y_movilidad/henley-passport-index",
         "descripcion": "Henley Passport Index (movilidad internacional por pasaporte)",
         "prioridad":   "🟡 MEDIA"
     },
     {
         "kaggle_id":   "justin2028/freedom-in-the-world-2013-2022",
-        "destino":     "PRINCIPAL/07_gobernanza_y_libertades/freedom-in-the-world",
+        "destino":     "07_gobernanza_y_libertades/freedom-in-the-world",
         "descripcion": "Freedom in the World Rankings 2013–2022 (Freedom House)",
         "prioridad":   "🟡 MEDIA"
     },
@@ -166,7 +167,7 @@ def download_and_place(dataset: dict):
 
 def create_climate_folder():
     """Crea la carpeta de clima/desastres si no existe."""
-    folder = os.path.join(BASE, "PRINCIPAL/09_clima_y_desastres")
+    folder = os.path.join(BASE, "09_clima_y_desastres")
     os.makedirs(folder, exist_ok=True)
 
 
@@ -179,12 +180,11 @@ def cleanup():
 def print_summary():
     """Imprime un árbol de la estructura final."""
     print("\n" + "=" * 55)
-    print("📁  ESTRUCTURA FINAL — PRINCIPAL/")
+    print("📁  ESTRUCTURA FINAL — data_external/")
     print("=" * 55)
-    principal = os.path.join(BASE, "PRINCIPAL")
-    if os.path.exists(principal):
-        for folder in sorted(os.listdir(principal)):
-            folder_path = os.path.join(principal, folder)
+    if os.path.exists(BASE):
+        for folder in sorted(os.listdir(BASE)):
+            folder_path = os.path.join(BASE, folder)
             if os.path.isdir(folder_path):
                 datasets = [d for d in os.listdir(folder_path)
                             if os.path.isdir(os.path.join(folder_path, d))]

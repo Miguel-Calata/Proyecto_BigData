@@ -1,3 +1,22 @@
-/projectData/COMPLEMENTARIO
-/projectData/NO_RELEVANTE
-/projectData/PRINCIPAL
+# Datos voluminosos (no trackeados)
+/data_external/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporales del pipeline de descarga
+/_temp_downloads/
+
+# OS / IDE temporales
+*.swp
+*.swo

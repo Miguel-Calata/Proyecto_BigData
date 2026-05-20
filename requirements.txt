@@ -1,9 +1,23 @@
-pandas
-numpy
-openpyxl
-matplotlib
-scikit-learn
-scipy
-kneed
-jupyter
-ipykernel
+# Pipeline y análisis
+pandas==3.0.1
+numpy==2.4.2
+scipy==1.17.1
+scikit-learn==1.8.0
+kneed==0.8.5
+
+# Visualización
+matplotlib==3.10.8
+seaborn>=0.13
+plotly>=5.20
+kaleido>=0.2.1  # exportación PNG de figuras Plotly
+
+# Geografía / mapas
+pycountry-convert>=0.7.2
+
+# IO de datos
+openpyxl>=3.1
+kaggle>=1.6
+
+# Entorno notebook
+jupyter>=1.0
+ipykernel==7.2.0

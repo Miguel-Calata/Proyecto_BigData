@@ -12,37 +12,45 @@ El proyecto integra múltiples fuentes de datos internacionales, construye índi
 
 ```
 Proyecto_BigData/
-├── data/
-│   ├── customers_large_dataset.csv       # Dataset de clientes (10,000 registros)
-│   └── uaScoresDataFrame-csv-2.csv       # Puntuaciones de 266 ciudades del mundo
-├── projectData/
-│   ├── PRINCIPAL/                        # Datasets temáticos (excluidos del repo)
-│   │   ├── 01_calidad_de_vida_y_bienestar/
-│   │   ├── 02_economia_y_costo_de_vida/
-│   │   ├── 03_salud_publica/
-│   │   ├── 04_vivienda_y_urbanismo/
-│   │   ├── 05_medioambiente_y_sostenibilidad/
-│   │   ├── 06_seguridad_y_criminalidad/
-│   │   ├── 07_gobernanza_y_libertades/
-│   │   ├── 08_migracion_y_movilidad/
-│   │   └── 09_clima_y_desastres/
-│   ├── processed/                        # Salidas del pipeline de datos
-│   ├── download_datasets.py              # Descarga automática desde Kaggle
-│   ├── Gaps_y_Datos_Faltantes.md         # Diagnóstico de cobertura de datos
-│   └── INSTRUCCIONES_DESCARGA.md         # Guía de configuración Kaggle API
-├── scripts/
-│   └── build_country_indices.py          # Pipeline de construcción de índices por país
-├── Outputs/
-│   └── output.png
-├── Analisis_Mejor_Lugar_Para_Vivir.ipynb         # Análisis principal
-├── Clase_16_Clustering_K_means_y_Jerárquico.ipynb  # Notebook educativo
-├── Clustering_k_means_mi_data.ipynb              # Análisis de ciudades del mundo
-├── country_category_indices.csv          # Tabla de índices por país (208 países × 9 índices)
-├── ranking_paises_clusters.csv           # Resultado: país → cluster asignado
-├── mapa_clusters.html                    # Mapa mundial interactivo por cluster
-├── mapa_habitabilidad.html               # Mapa mundial con índice de habitabilidad
-├── mapa_interactivo.html                 # Mapa adicional interactivo
+├── data/                                          # Datasets de entrada (trackeados)
+│   ├── customers_large_dataset.csv                # Clientes shopping (10,000 registros)
+│   └── uaScoresDataFrame-csv-2.csv                # 266 ciudades del mundo
+├── data_external/                                 # Datasets pesados (excluidos del repo, ~1.3 GB)
+│   ├── 01_calidad_de_vida_y_bienestar/
+│   ├── 02_economia_y_costo_de_vida/
+│   ├── 03_salud_publica/
+│   ├── 04_vivienda_y_urbanismo/
+│   ├── 05_medioambiente_y_sostenibilidad/
+│   ├── 06_seguridad_y_criminalidad/
+│   ├── 07_gobernanza_y_libertades/
+│   ├── 08_migracion_y_movilidad/
+│   └── 09_clima_y_desastres/
+├── notebooks/
+│   ├── 01_analisis_mejor_lugar_para_vivir.ipynb   # Análisis principal
+│   ├── 02_clustering_ciudades.ipynb               # K-Means sobre 266 ciudades
+│   └── 03_clustering_educativo.ipynb              # Clase teórico-práctica
+├── src/                                           # Pipeline de construcción de índices
+│   ├── build_country_indices.py
+│   └── country_aliases.json
+├── scripts/                                       # CLI entry points
+│   └── download_datasets.py                       # Descarga automática desde Kaggle
+├── outputs/                                       # Release artifacts (trackeados)
+│   ├── country_category_indices.csv               # 208 países × 9 índices
+│   ├── ranking_paises_clusters.csv                # País → cluster + score
+│   ├── audit_category_coverage.csv
+│   ├── audit_variable_scores.csv
+│   ├── unmatched_country_names.csv
+│   ├── maps/
+│   │   ├── mapa_clusters.html
+│   │   └── mapa_habitabilidad.html
+│   └── figures/
+│       └── output.png
+├── docs/
+│   ├── Gaps_y_Datos_Faltantes.md
+│   ├── INSTRUCCIONES_DESCARGA.md                  # Configuración Kaggle API
+│   └── Revision_Datos_Mejor_Lugar_Para_Vivir.md
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
@@ -50,11 +58,11 @@ Proyecto_BigData/
 
 ## Notebooks
 
-### 1. `Analisis_Mejor_Lugar_Para_Vivir.ipynb` — Análisis Principal
+### 1. `notebooks/01_analisis_mejor_lugar_para_vivir.ipynb` — Análisis Principal
 
 Análisis completo de habitabilidad a nivel país usando 9 índices temáticos construidos a partir de datos internacionales.
 
-**Fuente de datos:** `country_category_indices.csv` — 208 países × 9 índices (escala 0–100)
+**Fuente de datos:** `outputs/country_category_indices.csv` — 208 países × 9 índices (escala 0–100)
 
 **Índices analizados:**
 
@@ -100,7 +108,7 @@ Análisis completo de habitabilidad a nivel país usando 9 índices temáticos c
 
 ---
 
-### 2. `Clustering_k_means_mi_data.ipynb` — Análisis de Ciudades
+### 2. `notebooks/02_clustering_ciudades.ipynb` — Análisis de Ciudades
 
 K-Means y Clustering Jerárquico sobre 266 ciudades del mundo con 17 métricas de calidad urbana.
 
@@ -119,7 +127,7 @@ K-Means y Clustering Jerárquico sobre 266 ciudades del mundo con 17 métricas d
 
 ---
 
-### 3. `Clase_16_Clustering_K_means_y_Jerárquico.ipynb` — Notebook Educativo
+### 3. `notebooks/03_clustering_educativo.ipynb` — Notebook Educativo
 
 Introducción teórico-práctica a los algoritmos de clustering.
 
@@ -135,23 +143,22 @@ Introducción teórico-práctica a los algoritmos de clustering.
 
 El proyecto incluye un pipeline reproducible para construir los índices a nivel país desde cero.
 
-### `projectData/download_datasets.py`
+### `scripts/download_datasets.py`
 
-Descarga automática de 8 datasets desde Kaggle API y los organiza en carpetas temáticas:
+Descarga automática de 8 datasets desde Kaggle API y los organiza en `data_external/`:
 
 ```bash
-cd projectData
-python download_datasets.py
+python scripts/download_datasets.py
 ```
 
-Requiere credenciales configuradas en `~/.kaggle/kaggle.json`. Ver `INSTRUCCIONES_DESCARGA.md`.
+Requiere credenciales configuradas en `~/.kaggle/kaggle.json`. Ver `docs/INSTRUCCIONES_DESCARGA.md`.
 
-### `scripts/build_country_indices.py`
+### `src/build_country_indices.py`
 
-Construye `country_category_indices.csv` a partir de los datasets en `projectData/PRINCIPAL/`:
+Construye `outputs/country_category_indices.csv` a partir de los datasets en `data_external/`:
 
 ```bash
-python scripts/build_country_indices.py
+python src/build_country_indices.py
 ```
 
 **Proceso interno:**
@@ -160,7 +167,7 @@ python scripts/build_country_indices.py
 3. Ponderación de variables primarias vs. secundarias
 4. Filtro de cobertura: país incluido solo si tiene ≥30% cobertura en la categoría o fuente primaria
 
-**Salidas en `projectData/processed/`:**
+**Salidas en `outputs/`:**
 - `country_category_indices.csv` — tabla de índices final
 - `audit_variable_scores.csv` — desglose de cada variable y su score
 - `audit_category_coverage.csv` — auditoría de completitud
@@ -179,9 +186,9 @@ Usado en el notebook educativo para segmentación de clientes.
 
 266 ciudades del mundo con 17 métricas de calidad urbana (escala 0–10): Housing, Cost of Living, Startups, Venture Capital, Travel Connectivity, Commute, Business Freedom, Safety, Healthcare, Education, Environmental Quality, Economy, Taxation, Internet Access, Leisure & Culture, Tolerance, Outdoors.
 
-### `country_category_indices.csv` (generado)
+### `outputs/country_category_indices.csv` (generado)
 
-208 países × 9 índices temáticos (escala 0–100). Entrada principal del análisis de habitabilidad. Generado por `scripts/build_country_indices.py`.
+208 países × 9 índices temáticos (escala 0–100). Entrada principal del análisis de habitabilidad. Generado por `src/build_country_indices.py`.
 
 ### Olivetti Faces (desde scikit-learn)
 
@@ -194,9 +201,8 @@ Usado en el notebook educativo para segmentación de clientes.
 | Archivo | Descripción |
 |---------|-------------|
 | `ranking_paises_clusters.csv` | Tabla país → cluster asignado + score de habitabilidad |
-| `mapa_clusters.html` | Mapa mundial interactivo coloreado por cluster |
-| `mapa_habitabilidad.html` | Mapa mundial con gradiente por Índice Compuesto (0–100) |
-| `mapa_interactivo.html` | Mapa adicional interactivo |
+| `outputs/maps/mapa_clusters.html` | Mapa mundial interactivo coloreado por cluster |
+| `outputs/maps/mapa_habitabilidad.html` | Mapa mundial con gradiente por Índice Compuesto (0–100) |
 
 Los archivos `.html` se pueden abrir directamente en cualquier navegador web.
 
@@ -248,20 +254,20 @@ cd Proyecto_BigData
 jupyter notebook
 ```
 
-Abrir `Analisis_Mejor_Lugar_Para_Vivir.ipynb` — los archivos `country_category_indices.csv` y `ranking_paises_clusters.csv` ya están incluidos en el repositorio.
+Abrir `notebooks/01_analisis_mejor_lugar_para_vivir.ipynb` — los archivos en `outputs/` ya están incluidos en el repositorio como release artifacts, así que el notebook se puede ejecutar sin reproducir el pipeline.
 
 ### Reproducción completa del pipeline
 
 ```bash
-# 1. Configurar Kaggle API (ver projectData/INSTRUCCIONES_DESCARGA.md)
-# 2. Descargar datasets
-python projectData/download_datasets.py
+# 1. Configurar Kaggle API (ver docs/INSTRUCCIONES_DESCARGA.md)
+# 2. Descargar datasets a data_external/
+python scripts/download_datasets.py
 
-# 3. Construir índices por país
-python scripts/build_country_indices.py
+# 3. Construir índices por país → outputs/
+python src/build_country_indices.py
 
 # 4. Ejecutar el análisis
-jupyter notebook Analisis_Mejor_Lugar_Para_Vivir.ipynb
+jupyter notebook notebooks/01_analisis_mejor_lugar_para_vivir.ipynb
 ```
 
 ---
@@ -271,11 +277,11 @@ jupyter notebook Analisis_Mejor_Lugar_Para_Vivir.ipynb
 ```
 Datasets internacionales (Kaggle, ONU, World Bank)
         ↓
-download_datasets.py  →  projectData/PRINCIPAL/ (9 carpetas temáticas)
+scripts/download_datasets.py  →  data_external/ (9 carpetas temáticas)
         ↓
-build_country_indices.py  →  country_category_indices.csv (208 países × 9 índices)
+src/build_country_indices.py  →  outputs/country_category_indices.csv (208 países × 9 índices)
         ↓
-Analisis_Mejor_Lugar_Para_Vivir.ipynb
+notebooks/01_analisis_mejor_lugar_para_vivir.ipynb
   ├── EDA: distribuciones, correlaciones, valores faltantes
   ├── Índice Compuesto de Habitabilidad
   ├── Preprocesamiento: imputación + z-score
@@ -283,7 +289,7 @@ Analisis_Mejor_Lugar_Para_Vivir.ipynb
   ├── PCA 2D para visualización
   └── Mapas mundiales interactivos (Plotly)
         ↓
-ranking_paises_clusters.csv + mapa_clusters.html + mapa_habitabilidad.html
+outputs/ranking_paises_clusters.csv + outputs/maps/mapa_clusters.html + outputs/maps/mapa_habitabilidad.html
 ```
 
 ---
