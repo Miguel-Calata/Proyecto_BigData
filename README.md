@@ -2,9 +2,9 @@
 
 ## Descripción General
 
-Proyecto de análisis de datos que combina ingeniería de datos, aprendizaje no supervisado y visualización geoespacial para responder una pregunta práctica: **¿cuál es el mejor país o ciudad para vivir?**
+Proyecto de análisis de datos que combina ingeniería de datos, aprendizaje no supervisado y visualización geoespacial para responder una pregunta práctica: **¿cuál es el mejor país para vivir?**
 
-El proyecto integra múltiples fuentes de datos internacionales, construye índices compuestos de habitabilidad por país, aplica clustering con K-Means y Clustering Jerárquico, y genera mapas mundiales interactivos con los resultados.
+A partir de ~20 datasets internacionales se construyen 9 índices temáticos por país (208 países), se aplica K-Means para segmentarlos en perfiles de habitabilidad y se generan mapas mundiales interactivos con los resultados.
 
 ---
 
@@ -12,10 +12,7 @@ El proyecto integra múltiples fuentes de datos internacionales, construye índi
 
 ```
 Proyecto_BigData/
-├── data/                                          # Datasets de entrada (trackeados)
-│   ├── customers_large_dataset.csv                # Clientes shopping (10,000 registros)
-│   └── uaScoresDataFrame-csv-2.csv                # 266 ciudades del mundo
-├── data_external/                                 # Datasets pesados (excluidos del repo, ~1.3 GB)
+├── data_external/                                 # Datasets crudos (excluidos del repo, ~1.3 GB)
 │   ├── 01_calidad_de_vida_y_bienestar/
 │   ├── 02_economia_y_costo_de_vida/
 │   ├── 03_salud_publica/
@@ -26,9 +23,7 @@ Proyecto_BigData/
 │   ├── 08_migracion_y_movilidad/
 │   └── 09_clima_y_desastres/
 ├── notebooks/
-│   ├── 01_analisis_mejor_lugar_para_vivir.ipynb   # Análisis principal
-│   ├── 02_clustering_ciudades.ipynb               # K-Means sobre 266 ciudades
-│   └── 03_clustering_educativo.ipynb              # Clase teórico-práctica
+│   └── 01_analisis_mejor_lugar_para_vivir.ipynb   # Análisis principal
 ├── src/                                           # Pipeline de construcción de índices
 │   ├── build_country_indices.py
 │   └── country_aliases.json
@@ -41,13 +36,10 @@ Proyecto_BigData/
 │   ├── audit_variable_scores.csv
 │   ├── unmatched_country_names.csv
 │   ├── maps/
-│   │   ├── mapa_clusters.html
-│   │   └── mapa_habitabilidad.html
-│   └── figures/
-│       └── output.png
+│   │   ├── mapa_clusters.html                     # Choropleth coloreado por cluster
+│   │   └── mapa_habitabilidad.html                # Choropleth por Índice Compuesto
+│   └── figures/                                   # 13 figuras PNG generadas por el notebook
 ├── docs/
-│   ├── Gaps_y_Datos_Faltantes.md
-│   ├── INSTRUCCIONES_DESCARGA.md                  # Configuración Kaggle API
 │   └── Revision_Datos_Mejor_Lugar_Para_Vivir.md
 ├── requirements.txt
 ├── .gitignore
@@ -56,9 +48,9 @@ Proyecto_BigData/
 
 ---
 
-## Notebooks
+## Notebook Principal
 
-### 1. `notebooks/01_analisis_mejor_lugar_para_vivir.ipynb` — Análisis Principal
+### `notebooks/01_analisis_mejor_lugar_para_vivir.ipynb`
 
 Análisis completo de habitabilidad a nivel país usando 9 índices temáticos construidos a partir de datos internacionales.
 
@@ -79,63 +71,46 @@ Análisis completo de habitabilidad a nivel país usando 9 índices temáticos c
 | Clima | Confort climático, riesgo de desastres naturales |
 
 **Metodología:**
-- Exploración de distribuciones y matriz de correlaciones entre índices
-- Construcción de Índice Compuesto de Habitabilidad (promedio ponderado)
+- Exploración de distribuciones, valores faltantes y matriz de correlaciones entre índices
+- Construcción de un Índice Compuesto de Habitabilidad (promedio ponderado de los 9 índices)
 - Imputación de valores faltantes con mediana, estandarización z-score
 - K-Means con k=4 (validado con método del codo y coeficiente de silueta)
 - Reducción dimensional con PCA para visualización
-- Mapas coropletos interactivos con Plotly
+- Choropleths interactivos con Plotly
 
-**Hallazgos principales:**
+---
 
-*Top 5 países (Índice Compuesto):*
-1. Luxemburgo — 79.3
-2. Dinamarca — 78.7
-3. Finlandia — 78.5
-4. Suiza — 78.2
-5. Noruega — 77.4
+## Resultados
 
-*Clusters identificados (k=4):*
+### Top 5 países (Índice Compuesto de Habitabilidad)
+
+1. Luxemburgo — **79.3**
+2. Dinamarca — **78.7**
+3. Finlandia — **78.5**
+4. Suiza — **78.2**
+5. Noruega — **77.4**
+
+### Clusters identificados (k=4)
 
 | Cluster | Países | Score medio | Perfil |
-|---------|--------|-------------|--------|
-| Cluster 2 | 42 | 72.4 | Alto desarrollo (Europa occidental, Oceanía) |
-| Cluster 3 | 13 | 55.4 | Emergentes dinámicos (Corea del Sur, EAU, Qatar) |
-| Cluster 0 | 86 | 48.1 | Intermedios globales (México, Perú, Bhutan) |
-| Cluster 1 | 67 | 38.7 | Bajo desempeño (Yemen, Haití, Afganistán) |
+|---------|-------:|------------:|--------|
+| 2 | 42 | 72.4 | **Alto desarrollo** — Europa Occidental, Oceanía, Norteamérica |
+| 0 | 86 | 55.7 | **Intermedios globales** — gran parte de Latinoamérica, Europa del Este |
+| 3 | 13 | 55.4 | **Economías ricas no-democráticas** — Golfo, Singapur, perfil con alta economía/seguridad pero baja gobernanza |
+| 1 | 67 | 38.7 | **Bajo desempeño** — dominado por África subsahariana |
 
-*Patrones geográficos:* Europa concentra el 74.4% del Cluster 2; África concentra el 85.2% del Cluster 1. Asia presenta la mayor diversidad, distribuida en todos los clusters.
+### Patrones geográficos
 
----
+| Continente | Cluster dominante | % en cluster | Score medio |
+|---|---|---:|---:|
+| Europa | Cluster 2 (alto desarrollo) | 74.4% | 69.0 |
+| África | Cluster 1 (bajo desempeño) | 85.2% | 41.3 |
+| Sudamérica | Cluster 0 (intermedios) | 91.7% | 54.6 |
+| Norteamérica | Cluster 0 (intermedios) | 72.0% | 55.0 |
+| Oceanía | Cluster 0 (intermedios) | 78.6% | 57.0 |
+| Asia | Distribuido en los 4 clusters | — | 50.2 |
 
-### 2. `notebooks/02_clustering_ciudades.ipynb` — Análisis de Ciudades
-
-K-Means y Clustering Jerárquico sobre 266 ciudades del mundo con 17 métricas de calidad urbana.
-
-**Preprocesamiento:** estandarización + PCA (10 componentes, 91.45% de varianza explicada)
-
-**Resultado con k=6 clusters:**
-
-| Cluster | Ciudades representativas | Perfil |
-|---------|--------------------------|--------|
-| 0 | Almaty, El Cairo, Karachi | Vivienda cara, bajo desarrollo |
-| 1 | Bali, La Habana, Portland | Seguras y tolerantes, aisladas |
-| 2 | Copenhague, Berlín, Auckland | Economías desarrolladas de primer mundo |
-| 3 | Nueva York, Dubai, Boston | Hubs tecnológicos y financieros, alto costo |
-| 4 | Atlanta, Phoenix, Charlotte | Ciudades estadounidenses de clase media |
-| 5 | Barcelona, Estambul, Bangkok | Hubs globales con buen balance calidad/costo |
-
----
-
-### 3. `notebooks/03_clustering_educativo.ipynb` — Notebook Educativo
-
-Introducción teórico-práctica a los algoritmos de clustering.
-
-**Contenidos:**
-- K-Means sobre el dataset Olivetti Faces (400 imágenes, PCA a 100 componentes)
-- Elección de k óptimo: método del codo con `KneeLocator` y coeficiente de silueta
-- Clustering Jerárquico sobre datos de clientes de shopping (dendrograma, método Ward)
-- Comparación entre ambos algoritmos
+Asia es el continente con mayor diversidad: se reparte entre el Cluster 0 (36%), Cluster 1 (32%), Cluster 3 (22%) y Cluster 2 (10%).
 
 ---
 
@@ -145,13 +120,13 @@ El proyecto incluye un pipeline reproducible para construir los índices a nivel
 
 ### `scripts/download_datasets.py`
 
-Descarga automática de 8 datasets desde Kaggle API y los organiza en `data_external/`:
+Descarga automática desde Kaggle API y los organiza en `data_external/`:
 
 ```bash
 python scripts/download_datasets.py
 ```
 
-Requiere credenciales configuradas en `~/.kaggle/kaggle.json`. Ver `docs/INSTRUCCIONES_DESCARGA.md`.
+Requiere credenciales configuradas en `~/.kaggle/kaggle.json`.
 
 ### `src/build_country_indices.py`
 
@@ -162,49 +137,52 @@ python src/build_country_indices.py
 ```
 
 **Proceso interno:**
-1. Normalización de nombres de país (maneja variaciones ortográficas y abreviaciones)
+1. Normalización de nombres de país (maneja variaciones ortográficas, abreviaciones, subdivisiones)
 2. Extracción de variables por categoría, normalización a escala 0–100 (winsorized minmax)
 3. Ponderación de variables primarias vs. secundarias
-4. Filtro de cobertura: país incluido solo si tiene ≥30% cobertura en la categoría o fuente primaria
+4. Filtro de cobertura: país incluido sólo si tiene ≥30% cobertura en la categoría o tiene fuente primaria
 
 **Salidas en `outputs/`:**
-- `country_category_indices.csv` — tabla de índices final
-- `audit_variable_scores.csv` — desglose de cada variable y su score
-- `audit_category_coverage.csv` — auditoría de completitud
-- `unmatched_country_names.csv` — países sin mapeo exitoso
-
----
-
-## Datasets
-
-### `data/customers_large_dataset.csv`
-
-10,000 registros de clientes con: `CustomerID`, `Genre`, `Age`, `Annual Income (k$)`, `Spending Score (1-100)`.
-Usado en el notebook educativo para segmentación de clientes.
-
-### `data/uaScoresDataFrame-csv-2.csv`
-
-266 ciudades del mundo con 17 métricas de calidad urbana (escala 0–10): Housing, Cost of Living, Startups, Venture Capital, Travel Connectivity, Commute, Business Freedom, Safety, Healthcare, Education, Environmental Quality, Economy, Taxation, Internet Access, Leisure & Culture, Tolerance, Outdoors.
-
-### `outputs/country_category_indices.csv` (generado)
-
-208 países × 9 índices temáticos (escala 0–100). Entrada principal del análisis de habitabilidad. Generado por `src/build_country_indices.py`.
-
-### Olivetti Faces (desde scikit-learn)
-
-400 imágenes en escala de grises de 40 personas (64×64 px). Cargado directamente con `sklearn.datasets.fetch_olivetti_faces`.
-
----
-
-## Resultados Generados
 
 | Archivo | Descripción |
-|---------|-------------|
-| `ranking_paises_clusters.csv` | Tabla país → cluster asignado + score de habitabilidad |
-| `outputs/maps/mapa_clusters.html` | Mapa mundial interactivo coloreado por cluster |
-| `outputs/maps/mapa_habitabilidad.html` | Mapa mundial con gradiente por Índice Compuesto (0–100) |
+|---|---|
+| `country_category_indices.csv` | Tabla de índices final (208 países × 9 categorías) |
+| `audit_variable_scores.csv` | Desglose de cada variable y su score |
+| `audit_category_coverage.csv` | Auditoría de completitud por categoría |
+| `unmatched_country_names.csv` | Países sin mapeo exitoso (diagnóstico) |
 
-Los archivos `.html` se pueden abrir directamente en cualquier navegador web.
+---
+
+## Outputs Visuales
+
+### Figuras estáticas (`outputs/figures/`)
+
+13 PNGs generados al ejecutar el notebook:
+
+| Archivo | Contenido |
+|---|---|
+| `01_valores_faltantes.png` | % de países sin dato por índice |
+| `02_distribucion_indices.png` | Histogramas + KDE de los 9 índices |
+| `03_boxplot_indices.png` | Boxplot comparativo de los 9 índices |
+| `04_matriz_correlacion.png` | Heatmap de correlaciones entre índices |
+| `05_top_bottom_15.png` | Top 15 / Bottom 15 países por Índice Compuesto |
+| `06_elbow_silhouette.png` | Selección de k: método del codo + silueta |
+| `07_pca_clusters.png` | Países proyectados en 2D (PCA) coloreados por cluster |
+| `08_radar_clusters.png` | Perfil promedio normalizado de cada cluster |
+| `09_habitabilidad_por_cluster.png` | Boxplot del Índice de Habitabilidad por cluster |
+| `10_heatmap_perfil_clusters.png` | Heatmap cluster × índice |
+| `11_silueta.png` | Análisis de silueta por punto |
+| `12_clusters_por_continente.png` | Composición de clusters por continente (stacked bar) |
+| `13_habitabilidad_por_continente.png` | Boxplot del Índice por continente |
+
+### Mapas interactivos (`outputs/maps/`)
+
+| Archivo | Descripción |
+|---|---|
+| `mapa_clusters.html` | Choropleth mundial coloreado por cluster K-Means (interactivo) |
+| `mapa_habitabilidad.html` | Choropleth mundial con gradiente del Índice Compuesto (0–100) |
+
+Se abren directamente en cualquier navegador.
 
 ---
 
@@ -214,16 +192,13 @@ Los archivos `.html` se pueden abrir directamente en cualquier navegador web.
 |-------------|-----|
 | **Python 3.8+** | Lenguaje principal |
 | **Jupyter Notebook** | Entorno de análisis interactivo |
-| **Pandas** | Manipulación de datos tabulares |
-| **NumPy** | Operaciones numéricas y matriciales |
-| **Scikit-learn** | KMeans, PCA, Silhouette, StandardScaler |
-| **SciPy** | Clustering jerárquico, dendrogramas |
+| **Pandas / NumPy** | Manipulación de datos y operaciones numéricas |
+| **Scikit-learn** | KMeans, PCA, Silhouette, StandardScaler, SimpleImputer |
 | **Matplotlib / Seaborn** | Visualizaciones estáticas |
-| **Plotly** | Mapas coropletos interactivos |
+| **Plotly + Kaleido** | Mapas coropletos interactivos + exportación PNG |
 | **Kneed** | Detección automática del punto de codo |
-| **pycountry_convert** | Mapeo ISO3 → continente |
-| **openpyxl** | Lectura de archivos Excel |
-| **Kaggle API** | Descarga de datasets |
+| **pycountry-convert** | Mapeo ISO3 → continente |
+| **Kaggle API** | Descarga automática de datasets |
 
 ---
 
@@ -240,27 +215,21 @@ Los archivos `.html` se pueden abrir directamente en cualquier navegador web.
 pip install -r requirements.txt
 ```
 
-O manualmente:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn scipy kneed plotly pycountry-convert openpyxl jupyter ipykernel
-```
-
 ### Uso rápido (con datos ya generados)
 
 ```bash
 git clone <url-del-repositorio>
 cd Proyecto_BigData
-jupyter notebook
+jupyter notebook notebooks/01_analisis_mejor_lugar_para_vivir.ipynb
 ```
 
-Abrir `notebooks/01_analisis_mejor_lugar_para_vivir.ipynb` — los archivos en `outputs/` ya están incluidos en el repositorio como release artifacts, así que el notebook se puede ejecutar sin reproducir el pipeline.
+Los archivos en `outputs/` ya están incluidos en el repositorio como release artifacts, por lo que el notebook se puede ejecutar sin reproducir el pipeline ni configurar Kaggle.
 
 ### Reproducción completa del pipeline
 
 ```bash
-# 1. Configurar Kaggle API (ver docs/INSTRUCCIONES_DESCARGA.md)
-# 2. Descargar datasets a data_external/
+# 1. Configurar Kaggle API (token en ~/.kaggle/kaggle.json)
+# 2. Descargar datasets crudos a data_external/
 python scripts/download_datasets.py
 
 # 3. Construir índices por país → outputs/
@@ -275,11 +244,11 @@ jupyter notebook notebooks/01_analisis_mejor_lugar_para_vivir.ipynb
 ## Flujo de Trabajo
 
 ```
-Datasets internacionales (Kaggle, ONU, World Bank)
+Datasets internacionales (Kaggle, ONU, World Bank, RSF, Numbeo…)
         ↓
 scripts/download_datasets.py  →  data_external/ (9 carpetas temáticas)
         ↓
-src/build_country_indices.py  →  outputs/country_category_indices.csv (208 países × 9 índices)
+src/build_country_indices.py  →  outputs/country_category_indices.csv
         ↓
 notebooks/01_analisis_mejor_lugar_para_vivir.ipynb
   ├── EDA: distribuciones, correlaciones, valores faltantes
@@ -289,7 +258,9 @@ notebooks/01_analisis_mejor_lugar_para_vivir.ipynb
   ├── PCA 2D para visualización
   └── Mapas mundiales interactivos (Plotly)
         ↓
-outputs/ranking_paises_clusters.csv + outputs/maps/mapa_clusters.html + outputs/maps/mapa_habitabilidad.html
+outputs/ranking_paises_clusters.csv
+outputs/figures/ (13 PNGs)
+outputs/maps/{mapa_clusters,mapa_habitabilidad}.html
 ```
 
 ---
@@ -300,31 +271,24 @@ outputs/ranking_paises_clusters.csv + outputs/maps/mapa_clusters.html + outputs/
 
 Asigna cada punto al centroide más cercano e itera hasta convergencia. Minimiza la varianza intra-clúster (SSE/Inercia).
 
-- **Ventajas:** eficiente y escalable, centroides interpretables
-- **Limitaciones:** requiere k conocido de antemano, sensible a outliers y forma esférica de clusters
-
-### Clustering Jerárquico Aglomerativo
-
-Construye una jerarquía de clusters fusionando pares de forma ascendente. Visualizado mediante dendrograma.
-
-- **Ventajas:** no requiere k de antemano, estructura jerárquica interpretable
-- **Limitaciones:** O(n²) en memoria y tiempo, no apto para datasets muy grandes
+- **Ventajas:** eficiente y escalable, centroides interpretables, determinista con `random_state`
+- **Limitaciones:** requiere k conocido de antemano, sensible a outliers, asume clusters esféricos
 
 ### Métricas de Evaluación
 
 | Métrica | Descripción | Valor ideal |
 |---------|-------------|-------------|
-| **Inertia (SSE)** | Suma de distancias al cuadrado a los centroides | Minimizar |
-| **Silhouette Score** | Cohesión intra-clúster vs. separación inter-clúster | Maximizar (–1 a 1) |
+| **Inercia (SSE)** | Suma de distancias al cuadrado a los centroides | Minimizar |
+| **Silhouette Score** | Cohesión intra-clúster vs. separación inter-clúster | Maximizar (rango −1 a 1) |
 
 ---
 
 ## Autor
 
-Proyecto desarrollado como parte de un curso de Big Data y Machine Learning.
+Proyecto desarrollado por Miguel Salvador Calata Rodríguez como parte de un curso de Big Data Impartido por la Doctora Liliana Ibeth Barbosa Santillan.
 
 ---
 
 ## Licencia
 
-Uso educativo. Los datasets incluidos son de dominio público o de uso académico.
+Uso educativo. Los datasets utilizados son de dominio público.
